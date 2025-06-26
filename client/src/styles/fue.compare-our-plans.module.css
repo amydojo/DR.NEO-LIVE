@@ -1,0 +1,528 @@
+.Container_436_7942 {
+  align-items: flex-start;
+  gap: var(--item-spacing-xl, 64px);
+  flex-direction: column;
+  width: 382px;
+  padding: 0 20px;
+  display: flex;
+}
+.Container_436_7943 {
+  align-items: flex-start;
+  gap: var(--line-height-24, 24px);
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.Heading_2_436_7944 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.CompareOurPlans_436_7945 {
+  color: var(--www-apple-com-black, var(--color-black-solid, #000));
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-36, 36px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--radius-40, 40px);
+  display: inline-block;
+}
+.Container_436_7946 {
+  max-width: var(--width-768, 768px);
+  flex-direction: column;
+  align-items: center;
+  width: 342px;
+  display: flex;
+}
+.ChooseTheTreatmentPlanThatSRightForYourNeedsAndBudget_436_7947 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-river-bed,
+    var(--color-azure-34, #4b5563)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--font-size-20, 20px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-32_5, 32.5px);
+  display: inline-block;
+}
+.BackgroundShadow_436_7948 {
+  max-width: var(--width-1024, 1024px);
+  background: var(--color-white-solid, #fff);
+  border-radius: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 342px;
+  height: 1444px;
+  display: flex;
+  overflow: hidden;
+  box-shadow:
+    0 10px 15px -3px #0000001a,
+    0 4px 6px -4px #0000001a;
+}
+.BackgroundHorizontalBorder_436_7949 {
+  border-bottom: var(--stroke-weight-1, 1px) solid var(--color-grey-91, #e5e7eb);
+  background: var(--color-grey-98, #f9fafb);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 1px;
+  display: flex;
+}
+.Container_436_7950 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.Features_436_7951 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7952 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.Essential_436_7953 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7954 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.Advanced_436_7955 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7956 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.Complete_436_7957 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.HorizontalBorder_436_7958 {
+  border-bottom: var(--stroke-weight-1, 1px) solid var(--color-grey-91, #e5e7eb);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 1px;
+  display: flex;
+}
+.Container_436_7959 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.ConsultationIncluded_436_7960 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7961 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7962 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7963 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7964 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7965 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7966 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.HorizontalBorder_436_7967 {
+  border-bottom: var(--stroke-weight-1, 1px) solid var(--color-grey-91, #e5e7eb);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 1px;
+  display: flex;
+}
+.Container_436_7968 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.AiHairlineDesign_436_7969 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7970 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7971 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7972 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7973 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7974 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7975 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.HorizontalBorder_436_7976 {
+  border-bottom: var(--stroke-weight-1, 1px) solid var(--color-grey-91, #e5e7eb);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 1px;
+  display: flex;
+}
+.Container_436_7977 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.RoboticAssistance_436_7978 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7979 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7980 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7981 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7982 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7983 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7984 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7985 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Container_436_7986 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.LifetimeGuarantee_436_7987 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7988 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7989 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7990 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7991 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}
+.Container_436_7992 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 24px;
+  display: flex;
+}
+.generated__436_7993 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--line-height-16, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-24, 24px);
+  display: inline-block;
+}

@@ -1,0 +1,4593 @@
+Implement the following design in React. Use the following files generated from a Figma design as a specification and guide:
+
+```src/styles/wDefault.module.css
+.wDefault_372_5574 {
+  min-width: var(--width-320, 320px);
+  background: var(--color-white-solid, #fff);
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.Container_372_5576 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4.42px;
+  height: 1199.76px;
+  display: flex;
+  position: absolute;
+}
+.Iframe_372_5577 {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 4.42px;
+  height: 1200px;
+  display: flex;
+  overflow: hidden;
+}
+.Html_372_5578 {
+  background: var(--color-white-solid, #fff);
+  flex-shrink: 0;
+  width: 100%;
+  height: 1200px;
+}
+.BodyPaints_372_5579 {
+  min-width: var(--width-320, 320px);
+  background: var(--color-white-solid, #fff);
+  width: 1920px;
+  height: 6094.68px;
+  position: absolute;
+}
+.Main_372_5580 {
+  max-width: var(--width-2560, 2560px);
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  padding-top: 44px;
+  display: flex;
+}
+.Section_372_5582 {
+  align-items: flex-start;
+  gap: var(--font-size-12, 12px);
+  border-bottom: var(--font-size-12, 12px) solid var(--color-white-solid, #fff);
+  background: var(--color-white-solid, #fff);
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 12px;
+  display: flex;
+}
+.Background_372_5583 {
+  background: var(--color-grey-96, #f5f5f7);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 692px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5584 {
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 692px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5585 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 3008px;
+  height: 692px;
+}
+.Link_372_5586 {
+  width: 1920px;
+  height: 692px;
+  position: absolute;
+}
+.Container_372_5587 {
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 55px 0;
+  display: flex;
+}
+.Container_372_5589 {
+  width: 1920px;
+  height: 193.67px;
+}
+.Container_372_5590 {
+  align-items: flex-start;
+  gap: var(--item-spacing-17_41, 17.41px);
+  display: inline-flex;
+}
+.Component_1_372_5592 {
+  min-width: var(--width-72_67, 72.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12.333px 22.333px;
+  display: flex;
+}
+.Text_372_136 {
+  color: var(--www-apple-com-white, var(--color-white-solid, #fff));
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-17, 17px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-20, 20px);
+  letter-spacing: var(--letter-spacing--0_37, -0.374px);
+  display: inline-block;
+}
+.Component_1_372_5594 {
+  min-width: var(--width-72_67, 72.667px);
+  border: var(--stroke-weight-1, 1px) solid #06c;
+  box-sizing: border-box;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12.333px 22.333px;
+  display: flex;
+}
+.Text_372_141 {
+  color: var(--www-apple-com-science-blue, var(--color-azure-40, #06c));
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-17, 17px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-20, 20px);
+  letter-spacing: var(--letter-spacing--0_37, -0.374px);
+  display: inline-block;
+}
+.Heading_2MacBookAir_372_5596 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-56, 56px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-60, 60px);
+  letter-spacing: var(--letter-spacing--0_28, -0.28px);
+  flex-shrink: 0;
+  width: 310.951px;
+  height: 60px;
+  display: inline-block;
+}
+.Container_372_5602 {
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.SkyBlueColorSkyHighPerformanceWithM4_372_5603 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-28, 28px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-32, 32px);
+  letter-spacing: var(--letter-spacing-0_2, 0.196px);
+  display: inline-block;
+}
+.Container_372_5608 {
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  padding: 12.67px 0 0.33px;
+  display: flex;
+}
+.BuiltForAppleIntelligence_372_5609 {
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-21, 21px);
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  line-height: var(--line-height-25, 25px);
+  background: linear-gradient(
+    90deg,
+    var(--color-azure-48, #0090f7) 0%,
+    var(--color-violet-69, #ba62fc) 33.33%,
+    var(--color-red-60, #f2416b) 66.67%,
+    var(--color-orange-48, #f55600) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+}
+.Background_372_5618 {
+  background: var(--color-grey-96, #f5f5f7);
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 692px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5619 {
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 692px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5620 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 3008px;
+  height: 692px;
+}
+.Link_372_5621 {
+  width: 1920px;
+  height: 692px;
+  position: absolute;
+}
+.Container_372_5622 {
+  flex-shrink: 0;
+  width: 100%;
+  height: 270px;
+}
+.Heading_2IPhone_372_5623 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-56, 56px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-60, 60px);
+  letter-spacing: var(--letter-spacing--0_28, -0.28px);
+  flex-shrink: 0;
+  width: 169.712px;
+  height: 60px;
+  display: inline-block;
+}
+.MeetTheIPhone_16Family_372_5624 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-28, 28px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-32, 32px);
+  letter-spacing: var(--letter-spacing-0_2, 0.196px);
+  flex-shrink: 0;
+  width: 310.752px;
+  height: 32px;
+  display: inline-block;
+}
+.BuiltForAppleIntelligence_372_5625 {
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-21, 21px);
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  line-height: var(--line-height-25, 25px);
+  background: linear-gradient(
+    90deg,
+    var(--color-azure-48, #0090f7) 0%,
+    var(--color-violet-69, #ba62fc) 33.33%,
+    var(--color-red-60, #f2416b) 66.67%,
+    var(--color-orange-48, #f55600) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  flex-shrink: 0;
+  width: 240.527px;
+  height: 25px;
+  display: inline-block;
+}
+.Container_372_5626 {
+  align-items: flex-start;
+  gap: var(--item-spacing-17_41, 17.41px);
+  display: inline-flex;
+}
+.Component_1_372_5627 {
+  min-width: var(--width-72_67, 72.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12.333px 22.333px;
+  display: flex;
+}
+.Component_1_372_5629 {
+  min-width: var(--width-72_67, 72.667px);
+  border: var(--stroke-weight-1, 1px) solid #06c;
+  box-sizing: border-box;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12.333px 22.333px;
+  display: flex;
+}
+.Background_372_5631 {
+  background: var(--color-grey-96, #f5f5f7);
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 692px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5632 {
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 692px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5633 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 3008px;
+  height: 692px;
+}
+.Link_372_5634 {
+  width: 1920px;
+  height: 692px;
+  position: absolute;
+}
+.Container_372_5635 {
+  flex-shrink: 0;
+  width: 100%;
+  height: 275.67px;
+}
+.Container_372_5636 {
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  display: flex;
+}
+.NowThrough_6_18_372_5637 {
+  color: var(--www-apple-com-mid-gray, var(--color-grey-44, #6e6e73));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-19, 19px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-23, 23px);
+  letter-spacing: var(--letter-spacing-0_23, 0.228px);
+  display: inline-block;
+}
+.Heading_2_372_5644 {
+  background: #d3d3d3 url(<path-to-image>) 849px 0/11.563% 100% no-repeat;
+  flex-shrink: 0;
+  width: 1920px;
+  height: 54px;
+}
+.Container_372_5645 {
+  max-width: var(--width-432, 432px);
+  flex-direction: column;
+  align-items: center;
+  width: 432px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.GetExtraCreditTowardANewIPhoneWhenYouTradeIn_1_372_5647 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-28, 28px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-32, 32px);
+  letter-spacing: var(--letter-spacing-0_2, 0.196px);
+  display: inline-block;
+}
+.Container_372_5648 {
+  justify-content: center;
+  align-items: flex-start;
+  display: inline-flex;
+}
+.Component_1_372_5649 {
+  min-width: var(--width-72_67, 72.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12.333px 22.333px;
+  display: flex;
+}
+.Section_372_5651 {
+  border-bottom: var(--font-size-12, 12px) solid var(--color-white-solid, #fff);
+  background: var(--color-white-solid, #fff);
+  box-sizing: border-box;
+  width: 1896px;
+  height: 1776px;
+}
+.Background_372_5652 {
+  background: var(--color-grey-96, #f5f5f7);
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5653 {
+  justify-content: center;
+  align-items: center;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5654 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 1262px;
+  height: 580px;
+}
+.Link_372_5655 {
+  width: 942px;
+  height: 580px;
+  position: absolute;
+}
+.Container_372_5656 {
+  align-items: center;
+  gap: var(--item-spacing-7_8, 7.8px);
+  flex-direction: column;
+  width: 100%;
+  padding-top: 58px;
+  display: flex;
+}
+.Heading_3_372_5658 {
+  max-width: var(--width-430, 430px);
+  background: #d3d3d3 url(<path-to-image>) 161px 0/25.116% 100% no-repeat;
+  width: 430px;
+  height: 33px;
+}
+.Container_372_5660 {
+  max-width: var(--width-290, 290px);
+  flex-direction: column;
+  align-items: center;
+  width: 290px;
+  padding-bottom: 1.165px;
+  display: flex;
+}
+.GetUpTo_3DailyCashBackWithEveryPurchase_372_5662 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-21, 21px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-25, 25px);
+  letter-spacing: var(--letter-spacing-0_23, 0.228px);
+  display: inline-block;
+}
+.Container_372_5664 {
+  align-items: flex-start;
+  gap: var(--item-spacing-14_41, 14.41px);
+  width: 100%;
+  padding: 9.2px 361.71px 0 361.69px;
+  display: flex;
+}
+.Component_2_372_5666 {
+  min-width: var(--width-62_67, 62.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 16.333px;
+  display: flex;
+}
+.Text_372_149 {
+  color: var(--www-apple-com-white, var(--color-white-solid, #fff));
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-20, 20px);
+  letter-spacing: var(--letter-spacing--0_22, -0.224px);
+  display: inline-block;
+}
+.Component_2_372_5668 {
+  min-width: var(--width-62_67, 62.667px);
+  border: var(--stroke-weight-1, 1px) solid #06c;
+  box-sizing: border-box;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 16.333px;
+  display: flex;
+}
+.Text_372_151 {
+  color: var(--www-apple-com-science-blue, var(--color-azure-40, #06c));
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-20, 20px);
+  letter-spacing: var(--letter-spacing--0_22, -0.224px);
+  display: inline-block;
+}
+.Background_372_5670 {
+  background: var(--color-grey-96, #f5f5f7);
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5671 {
+  justify-content: center;
+  align-items: center;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5672 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 1262px;
+  height: 580px;
+}
+.Link_372_5673 {
+  width: 942px;
+  height: 580px;
+  position: absolute;
+}
+.Container_372_5674 {
+  align-items: center;
+  gap: var(--item-spacing-2_8, 2.8px);
+  flex-direction: column;
+  width: 100%;
+  padding-top: 53px;
+  display: flex;
+}
+.Heading_3CollegeStudents_372_5676 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-40, 40px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-44, 44px);
+  display: inline-block;
+}
+.Container_372_5680 {
+  max-width: var(--width-165, 165px);
+  flex-direction: column;
+  align-items: center;
+  width: 165px;
+  padding-bottom: 1.165px;
+  display: flex;
+}
+.MacAndIPadMajorInAnyField_372_5682 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-21, 21px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-25, 25px);
+  letter-spacing: var(--letter-spacing-0_23, 0.228px);
+  display: inline-block;
+}
+.Container_372_5683 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 14.2px;
+  display: flex;
+}
+.Component_2_372_5684 {
+  min-width: var(--width-62_67, 62.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 16.333px;
+  display: flex;
+}
+.Background_372_5686 {
+  background: var(--color-black-solid, #000);
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-start;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5687 {
+  justify-content: center;
+  align-items: center;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5688 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 1262px;
+  height: 580px;
+}
+.Link_372_5689 {
+  width: 942px;
+  height: 580px;
+  position: absolute;
+}
+.Container_372_5690 {
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 53px;
+  display: flex;
+}
+.Heading_3Margin_372_5691 {
+  flex-direction: column;
+  align-items: center;
+  width: 942px;
+  padding: 53px 256px 0;
+  display: flex;
+}
+.Heading_3AirPodsPro_2_372_5692 {
+  color: var(--www-apple-com-athens-gray, var(--color-grey-96, #f5f5f7));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-40, 40px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-44, 44px);
+  display: inline-block;
+}
+.Margin_372_5693 {
+  flex-direction: column;
+  align-items: center;
+  width: 942px;
+  padding: 2.835px 246px 0;
+  display: flex;
+}
+.Container_372_5694 {
+  max-width: var(--width-450, 450px);
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  padding-bottom: 1.165px;
+  display: flex;
+}
+.NowWithAHearingAidFeature_2_372_5696 {
+  color: var(--www-apple-com-athens-gray, var(--color-grey-96, #f5f5f7));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-21, 21px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-25, 25px);
+  letter-spacing: var(--letter-spacing-0_23, 0.228px);
+  display: inline-block;
+}
+.Margin_372_5697 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 17px;
+  display: flex;
+}
+.Container_372_5698 {
+  align-items: flex-start;
+  gap: var(--item-spacing-14_41, 14.41px);
+  width: 100%;
+  padding: 0 380px;
+  display: flex;
+}
+.Component_2_372_5699 {
+  min-width: var(--width-62_67, 62.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 16.333px;
+  display: flex;
+}
+.Component_2_372_5701 {
+  min-width: var(--width-62_67, 62.667px);
+  border: var(--stroke-weight-1, 1px) solid #2997ff;
+  box-sizing: border-box;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 19.19px 8.333px 19.17px;
+  display: flex;
+}
+.Text_372_155 {
+  color: var(--www-apple-com-dodger-blue, var(--color-azure-58, #2997ff));
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-20, 20px);
+  letter-spacing: var(--letter-spacing--0_22, -0.224px);
+  display: inline-block;
+}
+.Background_372_5703 {
+  background: var(--color-azure-86, #c7e6f1);
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-start;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5706 {
+  justify-content: center;
+  align-items: center;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5707 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 1262px;
+  height: 580px;
+}
+.Link_372_5708 {
+  width: 942px;
+  height: 580px;
+  position: absolute;
+}
+.Container_372_5709 {
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 53px;
+  display: flex;
+}
+.Container_372_5711 {
+  align-items: center;
+  gap: var(--item-spacing-10, 10px);
+  flex-direction: column;
+  width: 942px;
+  padding-top: 58px;
+  display: flex;
+}
+.Heading_3_372_5713 {
+  max-width: var(--width-430, 430px);
+  background: #d3d3d3 url(<path-to-image>) 143px 0/33.488% 100% no-repeat;
+  width: 430px;
+  height: 33px;
+}
+.NowSuperchargedByTheM3Chip_372_5714 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-21, 21px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-25, 25px);
+  letter-spacing: var(--letter-spacing-0_23, 0.228px);
+  display: inline-block;
+}
+.Container_372_5715 {
+  align-items: flex-start;
+  gap: var(--item-spacing-14_41, 14.41px);
+  width: 100%;
+  padding: 7px 380px 0;
+  display: flex;
+}
+.Component_2_372_5716 {
+  min-width: var(--width-62_67, 62.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 16.333px;
+  display: flex;
+}
+.Component_2_372_5718 {
+  min-width: var(--width-62_67, 62.667px);
+  border: var(--stroke-weight-1, 1px) solid #06c;
+  box-sizing: border-box;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 19.19px 8.333px 19.17px;
+  display: flex;
+}
+.Container_372_5720 {
+  flex-direction: column;
+  align-items: center;
+  width: 942px;
+  padding: 15.33px 0 1.67px;
+  display: flex;
+}
+.BuiltForAppleIntelligence_372_5721 {
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  line-height: var(--line-height-18, 18px);
+  background: linear-gradient(
+    90deg,
+    var(--color-azure-48, #0090f7) 0%,
+    var(--color-violet-69, #ba62fc) 33.33%,
+    var(--color-red-60, #f2416b) 66.67%,
+    var(--color-orange-48, #f55600) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+}
+.Background_372_5723 {
+  background: var(--color-grey-96, #f5f5f7);
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5724 {
+  justify-content: center;
+  align-items: center;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5725 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 1262px;
+  height: 580px;
+}
+.Link_372_5726 {
+  width: 942px;
+  height: 580px;
+  position: absolute;
+}
+.Container_372_5727 {
+  align-items: center;
+  gap: var(--item-spacing-9, 9px);
+  flex-direction: column;
+  width: 100%;
+  padding-top: 56px;
+  display: flex;
+}
+.Heading_3_372_5729 {
+  max-width: var(--width-430, 430px);
+  background: #d3d3d3 url(<path-to-image>) 140.5px 0/34.651% 100% no-repeat;
+  width: 430px;
+  height: 57px;
+}
+.ThinstantClassic_372_5730 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-21, 21px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-25, 25px);
+  letter-spacing: var(--letter-spacing-0_23, 0.228px);
+  display: inline-block;
+}
+.Container_372_5731 {
+  align-items: flex-start;
+  gap: var(--item-spacing-14_41, 14.41px);
+  width: 100%;
+  padding: 8px 380px 0;
+  display: flex;
+}
+.Component_2_372_5732 {
+  min-width: var(--width-62_67, 62.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 16.333px;
+  display: flex;
+}
+.Component_2_372_5734 {
+  min-width: var(--width-62_67, 62.667px);
+  border: var(--stroke-weight-1, 1px) solid #06c;
+  box-sizing: border-box;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 19.19px 8.333px 19.17px;
+  display: flex;
+}
+.Background_372_5736 {
+  background: var(--color-grey-96, #f5f5f7);
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-start;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5737 {
+  justify-content: center;
+  align-items: center;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  position: absolute;
+}
+.Figure_372_5738 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  flex-shrink: 0;
+  width: 1262px;
+  height: 580px;
+}
+.Link_372_5739 {
+  width: 942px;
+  height: 580px;
+  position: absolute;
+}
+.Container_372_5740 {
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 53px;
+  display: flex;
+}
+.Heading_3Margin_372_5741 {
+  width: 942px;
+  height: 53px;
+}
+.Margin_372_5742 {
+  flex-direction: column;
+  align-items: center;
+  width: 942px;
+  padding: 2.835px 266px 0;
+  display: flex;
+}
+.Container_372_5743 {
+  max-width: var(--width-410, 410px);
+  flex-direction: column;
+  align-items: center;
+  width: 410px;
+  padding-bottom: 1.165px;
+  display: flex;
+}
+.AppleWorldwideDevelopersConferenceJoinUsOnlineJune_9_13_372_5745 {
+  color: var(--www-apple-com-shark, var(--color-grey-12, #1d1d1f));
+  text-align: center;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--font-size-21, 21px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-25, 25px);
+  letter-spacing: var(--letter-spacing-0_23, 0.228px);
+  display: inline-block;
+}
+.Margin_372_5746 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 17px;
+  display: flex;
+}
+.Container_372_5747 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.Component_2_372_5748 {
+  min-width: var(--width-62_67, 62.667px);
+  background: #0071e3;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8.333px 16.333px;
+  display: flex;
+}
+.Section_372_5750 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.GroupTvPlusGallery_372_5751 {
+  background: var(--color-white-solid, #fff);
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  height: 705.25px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Container_372_5752 {
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  width: 1265px;
+  display: flex;
+}
+.Tabpanel_372_5753 {
+  background: var(--color-white-solid, #fff);
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 1265px;
+  height: 667.25px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Background_372_5754 {
+  background: radial-gradient(
+    33% 100% at 0% 100%,
+    var(--color-black-50, #00000080) 0%,
+    var(--color-white-0, #fff0) 100%
+  );
+  align-items: center;
+  height: 667.25px;
+  padding: 586.58px 210px 36.003px 70px;
+  display: flex;
+  position: absolute;
+  left: 7.5px;
+}
+.Container_372_5757 {
+  opacity: var(--opacity-0_1, 0.001);
+  align-items: center;
+  display: flex;
+}
+.Component_3_372_5759 {
+  min-width: var(--width-72_67, 72.667px);
+  background: #f5f5f7;
+  border-radius: 980px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12.333px 22.333px;
+  display: flex;
+}
+.Text_372_163 {
+  color: var(--www-apple-com-black, var(--color-black-solid, #000));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-17, 17px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-20, 20px);
+  letter-spacing: var(--letter-spacing--0_37, -0.374px);
+  display: inline-block;
+}
+.Margin_372_5761 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 18px;
+  display: flex;
+}
+.Container_372_5762 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.DramaLiveYourBestLie_372_5763 {
+  color: var(--www-apple-com-white, var(--color-white-solid, #fff));
+  text-shadow: 0 0 5px #0009;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--line-height-20, 20px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--line-height-22, 22px);
+  display: inline-block;
+}
+.Link_372_5767 {
+  opacity: var(--opacity-29, 0.29);
+  background: #d3d3d3 url(<path-to-image>) 0 0/100px 100px;
+  flex-shrink: 0;
+  width: 1250px;
+  height: 667.25px;
+}
+.Tabpanel_372_5769 {
+  background: var(--color-white-solid, #fff);
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 1265px;
+  height: 667.25px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Background_372_5770 {
+  background: radial-gradient(
+    33% 100% at 0% 100%,
+    var(--color-black-50, #00000080) 0%,
+    var(--color-white-0, #fff0) 100%
+  );
+  align-items: center;
+  height: 667.25px;
+  padding: 586.58px 210px 36px 70px;
+  display: flex;
+  position: absolute;
+  left: 7.5px;
+}
+.Container_372_5771 {
+  opacity: var(--opacity-0_1, 0.001);
+  align-items: center;
+  display: flex;
+}
+.StreamNowCarême_372_5772 {
+  min-width: var(--width-72_67, 72.667px);
+  background: var(--color-grey-96, #f5f5f7);
+  border-radius: 980px;
+  width: 135.63px;
+  height: 44.67px;
+}
+.Margin_372_5773 {
+  width: 660.33px;
+  height: 22px;
+}
+.Link_372_5774 {
+  opacity: var(--opacity-29, 0.29);
+  background: #d3d3d3 url(<path-to-image>) 0 0/100px 100px;
+  flex-shrink: 0;
+  width: 1250px;
+  height: 667.25px;
+}
+.Tabpanel_372_5775 {
+  background: var(--color-white-solid, #fff);
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 1265px;
+  height: 667.25px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.Background_372_5776 {
+  background: radial-gradient(
+    33% 100% at 0% 100%,
+    var(--color-black-50, #00000080) 0%,
+    var(--color-white-0, #fff0) 100%
+  );
+  align-items: center;
+  height: 667.25px;
+  padding: 566.58px 210px 56.003px 70px;
+  display: flex;
+  position: absolute;
+  left: 7.5px;
+}
+.Container_372_5777 {
+  opacity: var(--opacity-99_9, 0.999);
+  align-items: center;
+  display: flex;
+}
+.Component_3_372_5779 {
+  min-width: var(--width-72_67, 72.667px);
+  background: #f5f5f7;
+  border-radius: 980px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12.333px 22.333px;
+  display: flex;
+}
+.Margin_372_5781 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 18px;
+  display: flex;
+}
+.Container_372_5782 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.ActionItSOnlyALegendUntilYouDiscoverIt_372_5783 {
+  color: var(--www-apple-com-white, var(--color-white-solid, #fff));
+  text-shadow: 0 0 5px #0009;
+  font-family: var(--font-family-Font-2, "SF Pro Display");
+  font-size: var(--line-height-20, 20px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--line-height-22, 22px);
+  display: inline-block;
+}
+.Link_372_5784 {
+  opacity: var(--opacity-99, 0.99);
+  background: #d3d3d3 url(<path-to-image>) 0 0/100px 100px;
+  flex-shrink: 0;
+  width: 1250px;
+  height: 667.25px;
+}
+.Container_372_5786 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 220px;
+  display: flex;
+  position: absolute;
+  bottom: 7px;
+  left: 850px;
+}
+.Container_372_5787 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 9.33px 0 7.67px;
+  display: flex;
+}
+.Tablist_372_5788 {
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Margin_372_5789 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_1FountainOfYouth_372_5790 {
+  background: var(--color-black-80, #000c);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5791 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_2YourFriendsNeighbors_372_5792 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5795 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_3Murderbot_372_5796 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5797 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_4TheStudio_372_5798 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5799 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_5MlsSeasonPass_372_5800 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5801 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_6Severance_372_5802 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5803 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_7LongWayHome_372_5804 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5805 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_8_372_5806 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5807 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_9TedLasso_372_5808 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.Margin_372_5809 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22px;
+  height: 8px;
+  padding: 0 7px;
+  display: flex;
+}
+.TabItem_10Carême_372_5810 {
+  background: var(--color-black-42, #0000006b);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+}
+.List_372_5811 {
+  width: 1920px;
+  height: 705.25px;
+  position: absolute;
+}
+.Section_372_5812 {
+  background: var(--color-white-solid, #fff);
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Container_372_5813 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.GalleryOfAppleServicesIncludingFitnessPlusAppleArcadeAndAppleMusic_372_5814 {
+  flex-flow: row;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 0;
+  width: 100%;
+  height: 236px;
+  display: flex;
+  overflow: hidden;
+}
+.Margin_372_5815 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 15px;
+  display: flex;
+}
+.Container_372_5816 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 236px;
+  display: flex;
+}
+.Component_6_372_5817 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+.Background_372_1493 {
+  background:
+    url(<path-to-image>) lightgray 0px 0px/100% 100% no-repeat,
+    var(--color-green-69, #9acb94);
+  width: 417px;
+  height: 236px;
+  overflow: hidden;
+}
+.Gradient_372_1494 {
+  background: linear-gradient(
+    0deg,
+    var(--color-grey-1250, #1d1d1f80) 0%,
+    var(--color-black-0, #0000) 50%
+  );
+  flex-shrink: 0;
+  width: 417px;
+  height: 236px;
+}
+.Container_372_1495 {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 93px;
+  height: 41px;
+  padding: 3.44px 15px 23.66px 0;
+  display: flex;
+}
+.Component_4_372_1496 {
+  flex-shrink: 0;
+  width: 78px;
+  height: 13.9px;
+}
+.Container_372_1498 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 306.9px;
+  padding: 0 0 20px 15px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.Container_372_1499 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.StrongAndCalmCombosForBusyDays_372_1500 {
+  color: var(--www-apple-com-white, var(--color-white-solid, #fff));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-18, 18px);
+  letter-spacing: var(--letter-spacing--0_22, -0.224px);
+  display: inline-block;
+}
+.Margin_372_5827 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 15px;
+  display: flex;
+}
+.Container_372_5828 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 236px;
+  display: flex;
+}
+.Component_6_372_5829 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+.Background_372_1514 {
+  background: var(--color-grey-15, #262626);
+  width: 417px;
+  height: 236px;
+  overflow: hidden;
+}
+.Container_372_1515 {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 74px;
+  height: 41px;
+  padding: 3.42px 15px 23.66px 0;
+  display: flex;
+}
+.Component_4_372_1516 {
+  flex-shrink: 0;
+  width: 59px;
+  height: 13.92px;
+}
+.Image_372_1518 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 196px;
+  height: 196px;
+}
+.Container_372_1519 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 191px;
+  display: flex;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+.Container_372_1520 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.SethRogenTheZaneLoweInterview_372_1521 {
+  color: var(--www-apple-com-white, var(--color-white-solid, #fff));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-18, 18px);
+  letter-spacing: var(--letter-spacing--0_22, -0.224px);
+  display: inline-block;
+}
+.Margin_372_5839 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 15px;
+  display: flex;
+}
+.Container_372_5840 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 236px;
+  display: flex;
+}
+.Component_6_372_5841 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+.Background_372_1535 {
+  background:
+    url(<path-to-image>) lightgray 0px 0px/100% 100% no-repeat,
+    var(--color-grey-8, #141414);
+  width: 417px;
+  height: 236px;
+  overflow: hidden;
+}
+.Gradient_372_1536 {
+  background: linear-gradient(
+    0deg,
+    var(--color-grey-1250, #1d1d1f80) 0%,
+    var(--color-black-0, #0000) 50%
+  );
+  flex-shrink: 0;
+  width: 417px;
+  height: 236px;
+}
+.Container_372_1537 {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 83px;
+  height: 41px;
+  padding: 3.29px 15px 23.67px 0;
+  display: flex;
+}
+.Component_4_372_1538 {
+  flex-shrink: 0;
+  width: 68px;
+  height: 14.04px;
+}
+.Container_372_1540 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 306.9px;
+  padding: 0 0 20px 15px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.Container_372_1541 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.PgaTourProGolf_372_1542 {
+  color: var(--www-apple-com-white, var(--color-white-solid, #fff));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-18, 18px);
+  letter-spacing: var(--letter-spacing--0_22, -0.224px);
+  display: inline-block;
+}
+.Margin_372_5851 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 15px;
+  display: flex;
+}
+.Container_372_5852 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 236px;
+  display: flex;
+}
+.Component_6_372_5853 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+.Background_372_1556 {
+  background:
+    url(<path-to-image>) lightgray 0px 0px/100% 100% no-repeat,
+    var(--color-red-3, #0a0303);
+  width: 417px;
+  height: 236px;
+  overflow: hidden;
+}
+.Gradient_372_1557 {
+  background: linear-gradient(
+    0deg,
+    var(--color-grey-1250, #1d1d1f80) 0%,
+    var(--color-black-0, #0000) 50%
+  );
+  flex-shrink: 0;
+  width: 417px;
+  height: 236px;
+}
+.Container_372_1558 {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 93px;
+  height: 41px;
+  padding: 3.44px 15px 23.66px 0;
+  display: flex;
+}
+.Component_4_372_1559 {
+  flex-shrink: 0;
+  width: 78px;
+  height: 13.9px;
+}
+.Container_372_1561 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 306.9px;
+  padding: 0 0 20px 15px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.Container_372_1562 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.StrengthWithGregg_372_1563 {
+  color: var(--www-apple-com-white, var(--color-white-solid, #fff));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-18, 18px);
+  letter-spacing: var(--letter-spacing--0_22, -0.224px);
+  display: inline-block;
+}
+.Margin_372_5863 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 15px;
+  display: flex;
+}
+.Container_372_5864 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 236px;
+  display: flex;
+}
+.Component_6_372_5865 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  display: flex;
+}
+.Background_372_1391 {
+  background: var(--color-magenta-61, #de5bc0);
+  align-items: center;
+  height: 236px;
+  padding: 20px 206px 20px 15px;
+  display: flex;
+  overflow: hidden;
+}
+.Image_372_1394 {
+  background: #d3d3d3 url(<path-to-image>) 0 0/100% 100% no-repeat;
+  border-radius: 8px;
+  width: 196px;
+  height: 196px;
+}
+.Margin_372_5869,
+.Margin_372_5870,
+.Margin_372_5871,
+.Margin_372_5872,
+.Margin_372_5873,
+.Margin_372_5874,
+.Margin_372_5875 {
+  width: 432px;
+  height: 236px;
+}
+.Container_372_5876 {
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  padding: 16px 16px 16px 1880px;
+  display: flex;
+}
+.Component_7_372_5877 {
+  background: #d2d2d7;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+  display: flex;
+}
+.MaskGroup_372_2333 {
+  flex-flow: row;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
+  width: 12px;
+  height: 12px;
+  display: flex;
+}
+.Mask_372_2334 {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 12px;
+  height: 12px;
+  display: flex;
+}
+.ImageFill_372_2335 {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  overflow: hidden;
+}
+.Component_4_372_2336 {
+  opacity: var(--opacity-100, 1);
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  padding: 1.889px 1.65px 1.925px 2.993px;
+  display: flex;
+}
+.Group_372_184 {
+  opacity: var(--opacity-100, 1);
+  flex-shrink: 0;
+  width: 7.357px;
+  height: 8.186px;
+}
+.Background_372_2339 {
+  background: var(--color-black-solid, #000);
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+}
+.Footer_372_5885 {
+  min-width: var(--width-1024, 1024px);
+  background: var(--color-grey-96, #f5f5f7);
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 1165.43px;
+  display: flex;
+  overflow: hidden;
+}
+.Container_372_5887 {
+  max-width: var(--width-1024, 1024px);
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1024px;
+  padding: 0 22px;
+  display: flex;
+}
+.SectionFootnotes_372_5888 {
+  border-bottom: var(--stroke-weight-1_33, 1.333px) solid
+    var(--color-black-16, #00000029);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 17px 0 12.333px;
+  display: flex;
+}
+.List_372_5892 {
+  flex-flow: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.00000673533px;
+  width: 100%;
+  display: flex;
+}
+.Item_372_5893 {
+  align-items: flex-start;
+  gap: var(--line-height-16, 16px);
+  flex-direction: column;
+  width: 980px;
+  padding-bottom: 10.245px;
+  display: flex;
+}
+.GetExtraTradeInCreditWhenYouTradeInAnEligibleIPhoneAndPurchaseANewEligibleAppleDeviceThroughJune_18_2025AdditionalTermsFromAppleOrAppleSTradeInPartnersMayApply_372_5894,
+.TradeInValuesWillVaryBasedOnTheConditionYearAndConfigurationOfYourEligibleTradeInDeviceNotAllDevicesAreEligibleForCreditYouMustBeAtLeastTheAgeOfMajorityToBeEligibleToTradeInForCreditOrForAnAppleGiftCardTradeInValueMayBeAppliedTowardQualifyingNewDevicePurchaseOrAddedToAnAppleGiftCardActualValueAwardedIsBasedOnReceiptOfAQualifyingDeviceMatchingTheDescriptionProvidedWhenEstimateWasMadeSalesTaxMayBeAssessedOnFullValueOfANewDevicePurchaseInStoreTradeInRequiresPresentationOfAValidPhotoIdLocalLawMayRequireSavingThisInformationOfferMayNotBeAvailableInAllStoresAndMayVaryBetweenInStoreAndOnlineTradeInSomeStoresMayHaveAdditionalRequirementsAppleOrItsTradeInPartnersReserveTheRightToRefuseCancelOrLimitQuantityOfAnyTradeInTransactionForAnyReasonMoreDetailsAreAvailableFromAppleSTradeInPartnerForTradeInAndRecyclingOfEligibleDevicesRestrictionsAndLimitationsMayApply_372_5896 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Item_372_5897 {
+  flex-flow: row;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
+  width: 980px;
+  height: 121.58px;
+  display: flex;
+}
+.HearingAidAndHearingTestTheHearingAidFeatureHasReceivedFdaAuthorizationTheHearingTestAndHearingAidFeaturesAreSupportedOnAirPodsPro_2WithTheLatestFirmwarePairedWithACompatibleIPhoneOrIPadWithIOs_18OrIPadOs_18AndLaterAndAreIntendedForPeople_18YearsOldOrOlderTheHearingAidFeatureIsAlsoSupportedOnACompatibleMacWithMacOsSequoiaAndLaterItIsIntendedForPeopleWithPerceivedMildToModerateHearingLoss_372_5898 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  flex-shrink: 0;
+  width: 956.782px;
+  height: 48px;
+  display: inline-block;
+}
+.HearingProtectionTheHearingProtectionFeatureWorksWithAirPodsPro_2WithTheLatestFirmwareWhenPairedWithACompatibleIPhoneIPadOrMacWithIOs_18IPadOs_18OrMacOsSequoiaAndLaterFeatureIsOnlyAvailableInTheUSAndCanadaSee_372_5899 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  flex-shrink: 0;
+  width: 976.651px;
+  height: 32px;
+  display: inline-block;
+}
+.Component_8_372_5900 {
+  align-items: flex-start;
+  display: inline-flex;
+}
+.Text_372_1461 {
+  color: var(--www-apple-com-black-72, var(--color-black-72, #000000b8));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  text-decoration-skip-ink: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  display: inline-block;
+}
+.ForTotalAttenuationAndMoreInformationTheHearingProtection_372_5902 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  flex-shrink: 0;
+  width: 369.824px;
+  height: 16px;
+  display: inline-block;
+}
+.FeatureIsNotSuitableForProtectionAgainstExtremelyLoudImpulseSoundsSuchAsGunfireFireworksOrJackhammersOrAgainstSustainedSoundsLouderThan_110DBa_372_5903 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  flex-shrink: 0;
+  width: 941.13px;
+  height: 16px;
+  display: inline-block;
+}
+.Item_372_5904 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 980px;
+  padding-bottom: 10.25px;
+  display: flex;
+}
+.ToAccessAndUseAllAppleCardFeaturesAndProductsAvailableOnlyToAppleCardUsersYouMustAddAppleCardToWalletOnAnIPhoneOrIPadThatSupportsAndHasTheLatestVersionOfIOsOrIPadOsAppleCardIsSubjectToCreditApprovalAvailableOnlyForQualifyingApplicantsInTheUnitedStatesAndIssuedByGoldmanSachsBankUsaSaltLakeCityBranch_372_5905 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Item_372_5906 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 980px;
+  padding-bottom: 10.245px;
+  display: flex;
+}
+.ApplePaymentsServicesLlcASubsidiaryOfAppleIncIsAServiceProviderOfGoldmanSachsBankUsaForAppleCardAndSavingsAccountsNeitherAppleIncNorApplePaymentsServicesLlcIsABank_372_5907 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Item_372_5908 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 980px;
+  padding-bottom: 10.245px;
+  display: flex;
+}
+.IfYouResideInTheUSTerritoriesPleaseCallGoldmanSachsAt_877_255_5923WithQuestionsAboutAppleCard_372_5909 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Item_372_5910 {
+  align-items: flex-start;
+  padding-bottom: 10.245px;
+  display: flex;
+}
+.LearnMoreAboutHowAppleCardApplicationsAreEvaluatedAt_372_5911 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Component_8_372_5912 {
+  align-items: flex-start;
+  display: flex;
+}
+.generated__372_5914 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Item_372_5915 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 980px;
+  padding-bottom: 10.245px;
+  display: flex;
+}
+.AppleIntelligenceIsAvailableInBetaOnAllIPhone_16ModelsIPhone_15ProIPhone_15ProMaxIPadMiniA17ProAndIPadAndMacModelsWithM1AndLaterWithSiriAndDeviceLanguageSetToChineseSimplifiedEnglishAustraliaCanadaIndiaIrelandNewZealandSingaporeSouthAfricaUkOrUSFrenchGermanItalianJapaneseKoreanPortugueseBrazilOrSpanishAsPartOfAnIOs_18IPadOs_18AndMacOsSequoiaSoftwareUpdateWithMoreLanguagesComingOverTheCourseOfTheYearIncludingVietnameseSomeFeaturesMayNotBeAvailableInAllRegionsOrLanguages_372_5916 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Item_372_5917 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 980px;
+  padding-bottom: 10.245px;
+  display: flex;
+}
+.ASubscriptionIsRequiredForAppleArcadeAppleFitnessAppleMusicAndAppleTv_372_5918 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Item_372_5919 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 980px;
+  padding-bottom: 10.245px;
+  display: flex;
+}
+.FeaturesAreSubjectToChangeSomeFeaturesApplicationsAndServicesMayNotBeAvailableInAllRegionsOrAllLanguages_372_5920 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.NavigationAppleDirectory_372_5921 {
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 19.335px;
+  display: flex;
+}
+.Container_372_5922 {
+  align-items: flex-start;
+  gap: var(--item-spacing-0, 0px);
+  flex-direction: column;
+  flex: 1 0 0;
+  width: 100%;
+  display: flex;
+}
+.Container_372_5924 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_93, 8.925px);
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.Heading_3_372_5926 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.ShopAndLearn_372_5927 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_5929 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_5931 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5932 {
+  align-items: flex-start;
+  display: flex;
+}
+.Text_372_1452 {
+  color: var(--www-apple-com-black-72, var(--color-black-72, #000000b8));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.Listitem_372_5934 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5935 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5937 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5938 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5940 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5941 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5943 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5944 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5946 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5947 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5949 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5950 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5952 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5953 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5955 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5956 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5958 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5959 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5961 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5962 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_5964 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_91, 8.915px);
+  flex-direction: column;
+  width: 100%;
+  padding: 23.335px 0 0;
+  display: flex;
+}
+.Heading_3_372_5966 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.AppleWallet_372_5967 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_5968 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_5969 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5970 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5972 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5973 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5975 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5976 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5978 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5979 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_5981 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Container_372_5982 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_93, 8.925px);
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.Heading_3_372_5983 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Account_372_5984 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_5985 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_5986 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5987 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5989 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5990 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_5992 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_5993 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_5995 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_93, 8.925px);
+  flex-direction: column;
+  width: 100%;
+  padding-top: 23.335px;
+  display: flex;
+}
+.Heading_3_372_5996 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Entertainment_372_5997 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_5998 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_5999 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6000 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6002 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6003 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6005 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6006 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6008 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6009 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6011 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6012 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6014 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6015 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6017 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6018 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6020 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6021 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6023 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6024 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_6026 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Container_372_6027 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_93, 8.925px);
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.Heading_3_372_6028 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.AppleStore_372_6029 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_6030 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_6031 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6032 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6034 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6035 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6037 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6038 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6040 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6041 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6043 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6044 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6046 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6047 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6049 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6050 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6052 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6053 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6055 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6056 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6058 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6059 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6061 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6062 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6064 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6065 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_6067 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Container_372_6068 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_93, 8.925px);
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.Heading_3_372_6069 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.ForBusiness_372_6070 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_6071 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_91, 8.915px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_6072 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6073 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6075 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6076 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_6078 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_91, 8.915px);
+  flex-direction: column;
+  width: 100%;
+  padding: 23.335px 0 0;
+  display: flex;
+}
+.Heading_3_372_6079 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.ForEducation_372_6080 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_6081 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_6082 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6083 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6085 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6086 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6088 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6089 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_6091 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_91, 8.915px);
+  flex-direction: column;
+  width: 100%;
+  padding: 23.335px 0 0;
+  display: flex;
+}
+.Heading_3_372_6092 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.ForHealthcare_372_6093 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_6094 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_6095 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6096 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6098 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6099 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6101 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6102 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6104 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6105 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_6107 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_93, 8.925px);
+  flex-direction: column;
+  width: 100%;
+  padding-top: 23.335px;
+  display: flex;
+}
+.Heading_3_372_6108 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.ForGovernment_372_6109 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_6110 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_91, 8.915px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_6111 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6112 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6114 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6115 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_6117 {
+  align-items: flex-start;
+  gap: var(--item-spacing-0_01, 0.01px);
+  flex-direction: column;
+  flex: 1 0 0;
+  width: 100%;
+  display: flex;
+}
+.Container_372_6119 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_93, 8.925px);
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.Heading_3_372_6120 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.AppleValues_372_6121 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_6122 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_6123 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6124 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6126 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6127 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6129 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6130 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6132 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6133 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6135 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6136 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6138 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6139 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6141 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6142 {
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_6144 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_91, 8.915px);
+  flex-direction: column;
+  width: 100%;
+  padding: 23.335px 0 0;
+  display: flex;
+}
+.Heading_3_372_6145 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 176px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.AboutApple_372_6146 {
+  color: var(--www-apple-com-black-88, var(--color-black-88, #000000e0));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 600);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_6147 {
+  align-items: flex-start;
+  gap: var(--item-spacing-8_9, 8.9px);
+  flex-direction: column;
+  width: 176px;
+  display: flex;
+}
+.Listitem_372_6148 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6149 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6151 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6152 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6154 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6155 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6157 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6158 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6160 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6161 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6163 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6164 {
+  align-items: flex-start;
+  display: flex;
+}
+.Listitem_372_6166 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Component_8_372_6167 {
+  align-items: flex-start;
+  display: flex;
+}
+.Section_372_6169 {
+  width: 100%;
+  height: 126.33px;
+}
+.HorizontalBorder_372_6170 {
+  border-bottom: var(--stroke-weight-1_33, 1.333px) solid
+    var(--color-black-16, #00000029);
+  box-sizing: border-box;
+  flex-flow: row;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: -0.371643px;
+  padding: 0 365.439px 20.33px 0;
+  display: flex;
+}
+.MoreWaysToShop_372_6171 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  width: 111.222px;
+  height: 16px;
+  display: inline-block;
+}
+.Component_8_372_6172 {
+  align-items: flex-start;
+  display: flex;
+}
+.Text_372_1455 {
+  color: var(--www-apple-com-science-blue, var(--color-azure-40, #06c));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  text-decoration-skip-ink: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  display: inline-block;
+}
+.Or_372_6174 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  width: 18.246px;
+  height: 16px;
+  display: inline-block;
+}
+.Component_8_372_6175 {
+  align-items: flex-start;
+  display: flex;
+}
+.NearYouOrCall_372_6177 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  width: 97.18px;
+  height: 16px;
+  display: inline-block;
+}
+.Component_8_372_6178 {
+  align-items: flex-start;
+  display: flex;
+}
+._800_692_7753_372_6180 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  width: 110.891px;
+  height: 16px;
+  display: inline-block;
+}
+.Container_372_6181 {
+  justify-content: center;
+  align-items: flex-end;
+  gap: var(--item-spacing-30, 30px);
+  width: 980px;
+  padding: 0 264.31px 5px 0;
+  display: flex;
+}
+.Container_372_6183 {
+  max-height: var(--height-9999, 9999px);
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 266.4px;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Copyright_2025AppleIncAllRightsReserved_372_6185 {
+  color: var(--www-apple-com-black-56, var(--color-black-56, #0000008f));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  display: inline-block;
+}
+.List_372_6186 {
+  align-items: flex-start;
+  gap: var(--item-spacing-9_3, 9.3px);
+  flex-shrink: 0;
+  width: 419.29px;
+  padding-top: 4.335px;
+  display: flex;
+}
+.Listitem_372_6188 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+.Component_8_372_6189 {
+  align-items: flex-start;
+  padding: 0 9px 0.665px 0;
+  display: flex;
+}
+.VerticalDivider_372_6191 {
+  background: var(--color-black-48, #0000007a);
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  bottom: 3px;
+  right: -0.75px;
+}
+.Listitem_372_6194 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+.Component_8_372_6195 {
+  align-items: flex-start;
+  padding: 0 9px 0.665px 0;
+  display: flex;
+}
+.VerticalDivider_372_6197 {
+  background: var(--color-black-48, #0000007a);
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  bottom: 3px;
+  right: -0.43px;
+}
+.Listitem_372_6198 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+.Component_8_372_6199 {
+  align-items: flex-start;
+  padding: 0 9px 0.665px 0;
+  display: flex;
+}
+.VerticalDivider_372_6201 {
+  background: var(--color-black-48, #0000007a);
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  bottom: 3px;
+  right: -0.66px;
+}
+.Listitem_372_6202 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+.Component_8_372_6203 {
+  align-items: flex-start;
+  padding: 0 9px 0.665px 0;
+  display: flex;
+}
+.VerticalDivider_372_6205 {
+  background: var(--color-black-48, #0000007a);
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  bottom: 3px;
+  right: -0.75px;
+}
+.Component_8_372_6206 {
+  align-items: flex-start;
+  padding: 0 9px 0.665px 0;
+  display: flex;
+}
+.Container_372_6208 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75.17px;
+  display: flex;
+}
+.Component_8_372_6209 {
+  align-items: flex-start;
+  padding-bottom: 0.665px;
+  display: flex;
+}
+.Text_372_1459 {
+  color: var(--www-apple-com-black-72, var(--color-black-72, #000000b8));
+  font-family: var(--font-family-Font-1, "SF Pro Text");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  letter-spacing: var(--letter-spacing--0_12, -0.12px);
+  flex: 1 0 0;
+  display: inline-block;
+}
+.NavGlobal_372_6212 {
+  min-width: var(--width-320, 320px);
+  max-height: var(--line-height-44, 44px);
+  background: var(--color-white-80, #fffc);
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+}
+.Container_372_6215 {
+  max-width: var(--width-1024, 1024px);
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1024px;
+  padding: 0 14px;
+  display: flex;
+}
+.List_372_6216 {
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 19.15px;
+  width: 100%;
+  height: 44px;
+  padding-right: 0.1px;
+  display: flex;
+}
+.Component_9_372_6217 {
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2346,
+.Container_372_2347 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2348 {
+  width: 30px;
+  height: 44px;
+}
+.Component_9_372_6223 {
+  justify-content: center;
+  align-items: center;
+  width: 39px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2356,
+.Container_372_2357 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2358 {
+  width: 23px;
+  height: 44px;
+}
+.Component_9_372_6229 {
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2366,
+.Container_372_2367 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2368 {
+  width: 24px;
+  height: 44px;
+}
+.Component_9_372_6235 {
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2376,
+.Container_372_2377 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2378 {
+  width: 38px;
+  height: 44px;
+}
+.Component_9_372_6241 {
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2386,
+.Container_372_2387 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2388 {
+  width: 35px;
+  height: 44px;
+}
+.Component_9_372_6247 {
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2396,
+.Container_372_2397 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2398 {
+  width: 34px;
+  height: 44px;
+}
+.Component_9_372_6253 {
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2406,
+.Container_372_2407 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2408 {
+  width: 43px;
+  height: 44px;
+}
+.Component_9_372_6259 {
+  justify-content: center;
+  align-items: center;
+  width: 81px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2416,
+.Container_372_2417 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2418 {
+  width: 65px;
+  height: 44px;
+}
+.Component_9_372_6265 {
+  justify-content: center;
+  align-items: center;
+  width: 93px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2426,
+.Container_372_2427 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2428 {
+  width: 77px;
+  height: 44px;
+}
+.Component_9_372_6271 {
+  justify-content: center;
+  align-items: center;
+  width: 83px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2436,
+.Container_372_2437 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2438 {
+  width: 67px;
+  height: 44px;
+}
+.Component_9_372_6277 {
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_2446,
+.Container_372_2447 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_2448 {
+  width: 44px;
+  height: 44px;
+}
+.Item_372_6283 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.Container_372_6284 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_10_372_6285 {
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_3335 {
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+.Component_4_372_3336 {
+  width: 14px;
+  height: 44px;
+}
+.Item_372_6290 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.Component_10_372_6291 {
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_3343 {
+  align-items: flex-start;
+  display: flex;
+}
+.Component_4_372_3344 {
+  width: 14px;
+  height: 44px;
+}
+.Item_372_6296 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.Component_10_372_6297 {
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  padding: 0 8px;
+  display: flex;
+}
+.Container_372_3351 {
+  align-items: flex-start;
+  display: flex;
+}
+.Component_4_372_3352 {
+  width: 15px;
+  height: 44px;
+}
+
+```
+
+---
+
+```src/components/wDefault.tsx
+import React from 'react';
+import styles from '../styles/wDefault.module.css';
+
+
+export default function wDefault() {
+  return (
+    <div className={styles.wDefault_372_5574}>
+      <div className={styles.Container_372_5576}>
+        <div className={styles.Iframe_372_5577}>
+          <div className={styles.Html_372_5578}></div>
+        </div>
+      </div>
+      <div className={styles.BodyPaints_372_5579}></div>
+      <div className={styles.Main_372_5580}>
+        <div className={styles.Section_372_5582}>
+          <div className={styles.Background_372_5583}>
+            <div className={styles.Container_372_5584}>
+              <div className={styles.Figure_372_5585}></div>
+            </div>
+            <div className={styles.Link_372_5586}></div>
+            <div className={styles.Container_372_5587}>
+              <div className={styles.Container_372_5589}>
+                <div className={styles.Container_372_5590}>
+                  <div className={styles.Component_1_372_5592}><span className={styles.Text_372_136}>Learn more</span></div>
+                  <div className={styles.Component_1_372_5594}><span className={styles.Text_372_141}>Buy</span></div>
+                </div><span className={styles.Heading_2MacBookAir_372_5596}>MacBook Air</span>
+                <div className={styles.Container_372_5602}><span className={styles.SkyBlueColorSkyHighPerformanceWithM4_372_5603}>Sky blue color.
+                    Sky high performance with M4.</span></div>
+              </div>
+              <div className={styles.Container_372_5608}><span className={styles.BuiltForAppleIntelligence_372_5609}>Built for Apple Intelligence.</span></div>
+            </div>
+          </div>
+          <div className={styles.Background_372_5618}>
+            <div className={styles.Container_372_5619}>
+              <div className={styles.Figure_372_5620}></div>
+            </div>
+            <div className={styles.Link_372_5621}></div>
+            <div className={styles.Container_372_5622}><span className={styles.Heading_2IPhone_372_5623}>iPhone</span><span className={styles.MeetTheIPhone_16Family_372_5624}>Meet the iPhone 16 family.</span><span className={styles.BuiltForAppleIntelligence_372_5625}>Built for Apple Intelligence.</span>
+              <div className={styles.Container_372_5626}>
+                <div className={styles.Component_1_372_5627}><span className={styles.Text_372_136}>Learn more</span></div>
+                <div className={styles.Component_1_372_5629}><span className={styles.Text_372_141}>Shop iPhone</span></div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.Background_372_5631}>
+            <div className={styles.Container_372_5632}>
+              <div className={styles.Figure_372_5633}></div>
+            </div>
+            <div className={styles.Link_372_5634}></div>
+            <div className={styles.Container_372_5635}>
+              <div className={styles.Container_372_5636}><span className={styles.NowThrough_6_18_372_5637}>Now through 6.18</span></div>
+              <div className={styles.Heading_2_372_5644}></div>
+              <div className={styles.Container_372_5645}><span className={styles.GetExtraCreditTowardANewIPhoneWhenYouTradeIn_1_372_5647}>Get extra credit toward a new
+                  iPhone when you trade&#xA0;in.1</span></div>
+              <div className={styles.Container_372_5648}>
+                <div className={styles.Component_1_372_5649}><span className={styles.Text_372_136}>Get your estimate</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.Section_372_5651}>
+          <div className={styles.Background_372_5652}>
+            <div className={styles.Container_372_5653}>
+              <div className={styles.Figure_372_5654}></div>
+            </div>
+            <div className={styles.Link_372_5655}></div>
+            <div className={styles.Container_372_5656}>
+              <div className={styles.Heading_3_372_5658}></div>
+              <div className={styles.Container_372_5660}><span className={styles.GetUpTo_3DailyCashBackWithEveryPurchase_372_5662}>Get up to 3% Daily&#xA0;Cash back
+                  with every purchase.</span></div>
+              <div className={styles.Container_372_5664}>
+                <div className={styles.Component_2_372_5666}><span className={styles.Text_372_149}>Learn more</span></div>
+                <div className={styles.Component_2_372_5668}><span className={styles.Text_372_151}>Apply now</span></div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.Background_372_5670}>
+            <div className={styles.Container_372_5671}>
+              <div className={styles.Figure_372_5672}></div>
+            </div>
+            <div className={styles.Link_372_5673}></div>
+            <div className={styles.Container_372_5674}><span className={styles.Heading_3CollegeStudents_372_5676}>College Students</span>
+              <div className={styles.Container_372_5680}><span className={styles.MacAndIPadMajorInAnyField_372_5682}>Mac and iPad.
+                  Major. In any field.</span></div>
+              <div className={styles.Container_372_5683}>
+                <div className={styles.Component_2_372_5684}><span className={styles.Text_372_149}>Learn more</span></div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.Background_372_5686}>
+            <div className={styles.Container_372_5687}>
+              <div className={styles.Figure_372_5688}></div>
+            </div>
+            <div className={styles.Link_372_5689}></div>
+            <div className={styles.Container_372_5690}>
+              <div className={styles.Heading_3Margin_372_5691}><span className={styles.Heading_3AirPodsPro_2_372_5692}>AirPods&#xA0;Pro&#xA0;2</span></div>
+              <div className={styles.Margin_372_5693}>
+                <div className={styles.Container_372_5694}><span className={styles.NowWithAHearingAidFeature_2_372_5696}>Now with a Hearing&#xA0;Aid feature.2</span></div>
+              </div>
+              <div className={styles.Margin_372_5697}>
+                <div className={styles.Container_372_5698}>
+                  <div className={styles.Component_2_372_5699}><span className={styles.Text_372_149}>Learn more</span></div>
+                  <div className={styles.Component_2_372_5701}><span className={styles.Text_372_155}>Buy</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.Background_372_5703}>
+            <div className={styles.Container_372_5706}>
+              <div className={styles.Figure_372_5707}></div>
+            </div>
+            <div className={styles.Link_372_5708}></div>
+            <div className={styles.Container_372_5709}>
+              <div className={styles.Container_372_5711}>
+                <div className={styles.Heading_3_372_5713}></div><span className={styles.NowSuperchargedByTheM3Chip_372_5714}>Now supercharged by the M3 chip.</span>
+                <div className={styles.Container_372_5715}>
+                  <div className={styles.Component_2_372_5716}><span className={styles.Text_372_149}>Learn more</span></div>
+                  <div className={styles.Component_2_372_5718}><span className={styles.Text_372_151}>Buy</span></div>
+                </div>
+              </div>
+              <div className={styles.Container_372_5720}><span className={styles.BuiltForAppleIntelligence_372_5721}>Built for Apple Intelligence.</span></div>
+            </div>
+          </div>
+          <div className={styles.Background_372_5723}>
+            <div className={styles.Container_372_5724}>
+              <div className={styles.Figure_372_5725}></div>
+            </div>
+            <div className={styles.Link_372_5726}></div>
+            <div className={styles.Container_372_5727}>
+              <div className={styles.Heading_3_372_5729}></div><span className={styles.ThinstantClassic_372_5730}>Thinstant classic.</span>
+              <div className={styles.Container_372_5731}>
+                <div className={styles.Component_2_372_5732}><span className={styles.Text_372_149}>Learn more</span></div>
+                <div className={styles.Component_2_372_5734}><span className={styles.Text_372_151}>Buy</span></div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.Background_372_5736}>
+            <div className={styles.Container_372_5737}>
+              <div className={styles.Figure_372_5738}></div>
+            </div>
+            <div className={styles.Link_372_5739}></div>
+            <div className={styles.Container_372_5740}>
+              <div className={styles.Heading_3Margin_372_5741}></div>
+              <div className={styles.Margin_372_5742}>
+                <div className={styles.Container_372_5743}><span className={styles.AppleWorldwideDevelopersConferenceJoinUsOnlineJune_9_13_372_5745}>Apple Worldwide Developers Conference.
+                    Join us online June 9&#x2013;13.</span></div>
+              </div>
+              <div className={styles.Margin_372_5746}>
+                <div className={styles.Container_372_5747}>
+                  <div className={styles.Component_2_372_5748}><span className={styles.Text_372_149}>Learn more</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.Section_372_5750}>
+          <div className={styles.GroupTvPlusGallery_372_5751}>
+            <div className={styles.Container_372_5752}>
+              <div className={styles.Tabpanel_372_5753}>
+                <div className={styles.Background_372_5754}>
+                  <div className={styles.Container_372_5757}>
+                    <div className={styles.Component_3_372_5759}><span className={styles.Text_372_163}>Stream now</span></div>
+                    <div className={styles.Margin_372_5761}>
+                      <div className={styles.Container_372_5762}><span className={styles.DramaLiveYourBestLie_372_5763}>Drama &#xB7; Live your best lie.</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Link_372_5767}></div>
+              </div>
+              <div className={styles.Tabpanel_372_5769}>
+                <div className={styles.Background_372_5770}>
+                  <div className={styles.Container_372_5771}>
+                    <div className={styles.StreamNowCarême_372_5772}></div>
+                    <div className={styles.Margin_372_5773}></div>
+                  </div>
+                </div>
+                <div className={styles.Link_372_5774}></div>
+              </div>
+              <div className={styles.Tabpanel_372_5775}>
+                <div className={styles.Background_372_5776}>
+                  <div className={styles.Container_372_5777}>
+                    <div className={styles.Component_3_372_5779}><span className={styles.Text_372_163}>Stream now</span></div>
+                    <div className={styles.Margin_372_5781}>
+                      <div className={styles.Container_372_5782}><span className={styles.ActionItSOnlyALegendUntilYouDiscoverIt_372_5783}>Action &#xB7; It&#x2019;s only a legend until you discover it.</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.Link_372_5784}></div>
+              </div>
+            </div>
+            <div className={styles.Container_372_5786}>
+              <div className={styles.Container_372_5787}>
+                <div className={styles.Tablist_372_5788}>
+                  <div className={styles.Margin_372_5789}>
+                    <div className={styles.TabItem_1FountainOfYouth_372_5790}></div>
+                  </div>
+                  <div className={styles.Margin_372_5791}>
+                    <div className={styles.TabItem_2YourFriendsNeighbors_372_5792}></div>
+                  </div>
+                  <div className={styles.Margin_372_5795}>
+                    <div className={styles.TabItem_3Murderbot_372_5796}></div>
+                  </div>
+                  <div className={styles.Margin_372_5797}>
+                    <div className={styles.TabItem_4TheStudio_372_5798}></div>
+                  </div>
+                  <div className={styles.Margin_372_5799}>
+                    <div className={styles.TabItem_5MlsSeasonPass_372_5800}></div>
+                  </div>
+                  <div className={styles.Margin_372_5801}>
+                    <div className={styles.TabItem_6Severance_372_5802}></div>
+                  </div>
+                  <div className={styles.Margin_372_5803}>
+                    <div className={styles.TabItem_7LongWayHome_372_5804}></div>
+                  </div>
+                  <div className={styles.Margin_372_5805}>
+                    <div className={styles.TabItem_8_372_5806}></div>
+                  </div>
+                  <div className={styles.Margin_372_5807}>
+                    <div className={styles.TabItem_9TedLasso_372_5808}></div>
+                  </div>
+                  <div className={styles.Margin_372_5809}>
+                    <div className={styles.TabItem_10Carême_372_5810}></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.List_372_5811}></div>
+          </div>
+        </div>
+        <div className={styles.Section_372_5812}>
+          <div className={styles.Container_372_5813}>
+            <div className={styles.GalleryOfAppleServicesIncludingFitnessPlusAppleArcadeAndAppleMusic_372_5814}>
+              <div className={styles.Margin_372_5815}>
+                <div className={styles.Container_372_5816}>
+                  <div className={styles.Component_6_372_5817}>
+                    <div className={styles.Background_372_1493}>
+                      <div className={styles.Gradient_372_1494}></div>
+                      <div className={styles.Container_372_1495}>
+                        <div className={styles.Component_4_372_1496}><svg width="78" height="15" viewBox="0 0 78 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.6575 14.3397V1.64557H21.5816V3.3431H15.6273V7.36368H21.0796V9.02647H15.6273V14.3397H13.6575ZM22.9087 2.63942C22.9087 2.03303 23.4002 1.54827 24.0082 1.54827C24.6144 1.54827 25.1077 2.03303 25.1077 2.63942C25.1077 3.23712 24.6161 3.73057 24.0082 3.73057C23.4002 3.73057 22.9087 3.23885 22.9087 2.63942ZM23.0581 5.08582H24.9583V14.3397H23.0581V5.08582ZM29.6516 2.89483V5.08582H31.4094V6.59049H29.6516V11.6918C29.6516 12.4928 30.0025 12.8524 30.7772 12.8524C30.97 12.8524 31.2792 12.8351 31.4007 12.809V14.3137C31.1906 14.3658 30.7685 14.4023 30.3447 14.4023C28.4722 14.4023 27.7409 13.6899 27.7409 11.9038V6.59049H26.3948V5.08582H27.7409V2.89483H29.6516ZM33.004 5.08582H34.8156V6.63393H34.8591C35.361 5.57753 36.3459 4.9277 37.7702 4.9277C39.8112 4.9277 40.9802 6.22909 40.9802 8.34884V14.3397H39.0712V8.71893C39.0712 7.32893 38.4199 6.56443 37.1015 6.56443C35.764 6.56443 34.9025 7.51484 34.9025 8.94828V14.3415H33.0022V5.08582H33.004ZM50.563 11.6206C50.299 13.3094 48.6993 14.5152 46.5802 14.5152C43.8635 14.5152 42.2186 12.677 42.2186 9.75622C42.2186 6.85285 43.8896 4.91728 46.502 4.91728C49.0693 4.91728 50.6707 6.72949 50.6707 9.53555V10.1871H44.1362V10.3018C44.1362 11.9107 45.1037 12.9758 46.6253 12.9758C47.7075 12.9758 48.5082 12.4302 48.7618 11.6206H50.563ZM44.1432 8.85967H48.7688C48.7253 7.4436 47.8273 6.44975 46.5003 6.44975C45.1715 6.44975 44.2387 7.46098 44.1432 8.85967ZM55.5221 4.91902C57.676 4.91902 59.0742 6.11615 59.1368 7.82238H57.3511C57.2452 6.92583 56.5869 6.36288 55.5221 6.36288C54.4938 6.36288 53.8077 6.86502 53.8077 7.60345C53.8077 8.18378 54.2298 8.57993 55.232 8.80928L56.7363 9.15157C58.6278 9.59115 59.3487 10.3296 59.3487 11.6675C59.3487 13.3563 57.775 14.517 55.5933 14.517C53.2797 14.517 51.8901 13.3824 51.7147 11.6223H53.5958C53.7712 12.5901 54.4313 13.0644 55.5916 13.0644C56.7345 13.0644 57.438 12.5901 57.438 11.8325C57.438 11.2348 57.0958 10.8821 56.0832 10.6528L54.5789 10.3018C52.8194 9.89695 51.9492 9.05253 51.9492 7.70597C51.9526 6.0536 53.3943 4.91902 55.5221 4.91902ZM64.1132 4.91902C66.267 4.91902 67.6653 6.11615 67.7278 7.82238H65.9422C65.8363 6.92583 65.178 6.36288 64.1132 6.36288C63.0849 6.36288 62.3988 6.86502 62.3988 7.60345C62.3988 8.18378 62.8209 8.57993 63.8231 8.80928L65.3273 9.15157C67.2189 9.59115 67.9397 10.3296 67.9397 11.6675C67.9397 13.3563 66.366 14.517 64.1844 14.517C61.8708 14.517 60.4812 13.3824 60.3057 11.6223H62.1869C62.3623 12.5901 63.0224 13.0644 64.1827 13.0644C65.3256 13.0644 66.0291 12.5901 66.0291 11.8325C66.0291 11.2348 65.6869 10.8821 64.6742 10.6528L63.17 10.3018C61.4105 9.89695 60.5402 9.05253 60.5402 7.70597C60.542 6.0536 61.9854 4.91902 64.1132 4.91902ZM74.3596 14.3519H72.6278V10.5815H69.0393V8.86662H72.6278V5.09798H74.3596V8.86662H77.9569V10.5815H74.3596V14.3519ZM7.62503 2.88614C8.10617 2.30408 8.42925 1.4944 8.34066 0.689941C7.64935 0.717741 6.81212 1.15038 6.31535 1.73244C5.87068 2.24674 5.47986 3.07205 5.58582 3.86088C6.35704 3.91995 7.14562 3.4682 7.62503 2.88614ZM8.32329 4.01378C7.19078 3.93038 6.23024 4.64623 5.69525 4.64623C5.15157 4.64623 4.31262 4.03115 3.42502 4.04853C2.25777 4.0659 1.18259 4.72789 0.579857 5.77387C-0.632551 7.87798 0.270676 10.9968 1.45182 12.7048C2.03023 13.5388 2.71807 14.4805 3.62304 14.4457C4.49326 14.411 4.82329 13.8828 5.87589 13.8828C6.9285 13.8828 7.22552 14.4457 8.14612 14.4301C9.08409 14.4127 9.67813 13.5787 10.2513 12.7395C10.9149 11.7717 11.1876 10.8335 11.2032 10.7831C11.1824 10.7744 9.3759 10.0811 9.35853 7.9996C9.3429 6.25863 10.7794 5.42289 10.8436 5.38119C10.0273 4.17884 8.76796 4.04679 8.32329 4.01378Z" fill="black" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.Container_372_1498}>
+                      <div className={styles.Container_372_1499}><span className={styles.StrongAndCalmCombosForBusyDays_372_1500}>Strong and Calm Combos for Busy Days</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Margin_372_5827}>
+                <div className={styles.Container_372_5828}>
+                  <div className={styles.Component_6_372_5829}>
+                    <div className={styles.Background_372_1514}>
+                      <div className={styles.Container_372_1515}>
+                        <div className={styles.Component_4_372_1516}><svg width="59" height="15" viewBox="0 0 59 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.7405 14.3515V4.99556H24.6796L20.849 14.3515H19.3878L15.545 4.99556H15.4841V14.3515H13.6872V1.6391H15.9678L20.0801 11.7694H20.1515L24.2551 1.6391H26.5444V14.3515H24.7405ZM36.4792 14.3515H34.6561V12.7838H34.6127C34.1012 13.8939 33.1601 14.5186 31.7423 14.5186C29.7262 14.5186 28.4928 13.2066 28.4928 11.0821V5.08256H30.3959V10.7115C30.3959 12.1209 31.0656 12.8778 32.3773 12.8778C33.7516 12.8778 34.5796 11.926 34.5796 10.4818V5.08256H36.4827L36.4792 14.3515ZM41.6928 4.91552C43.8499 4.91552 45.2502 6.11438 45.3129 7.82306H43.5246C43.4184 6.92522 42.7591 6.36146 41.6928 6.36146C40.6629 6.36146 39.9758 6.86432 39.9758 7.60382C39.9758 8.18498 40.3985 8.5817 41.4023 8.81138L42.9087 9.15416C44.8032 9.59438 45.5251 10.3339 45.5251 11.6737C45.5251 13.365 43.949 14.5273 41.7641 14.5273C39.447 14.5273 38.0553 13.3911 37.8796 11.6284H39.7653C39.941 12.5976 40.6021 13.0726 41.7641 13.0726C42.9087 13.0726 43.6133 12.5976 43.6133 11.839C43.6133 11.2404 43.2706 10.8872 42.2564 10.6575L40.7499 10.306C38.9877 9.90062 38.1162 9.05498 38.1162 7.70648C38.1162 6.05174 39.5618 4.91552 41.6928 4.91552ZM46.8541 2.64308C46.842 2.03234 47.3273 1.52774 47.9379 1.51556C48.5485 1.50338 49.053 1.98884 49.0651 2.59958C49.0773 3.21032 48.592 3.71492 47.9814 3.7271C47.9727 3.7271 47.964 3.7271 47.9553 3.7271C47.3517 3.73058 46.8593 3.24686 46.8541 2.64308ZM47.0037 5.08256H48.9068V14.3498H47.0037V5.08256ZM56.9368 8.27198C56.7437 7.2854 56.0026 6.50066 54.7623 6.50066C53.2906 6.50066 52.3234 7.72562 52.3234 9.71618C52.3234 11.752 53.301 12.9317 54.7814 12.9317C55.9522 12.9317 56.7193 12.2879 56.9385 11.2143H58.7703C58.5668 13.1875 56.9907 14.5273 54.7623 14.5273C52.1112 14.5273 50.3855 12.7125 50.3855 9.71792C50.3855 6.77558 52.1112 4.91726 54.7449 4.91726C57.1316 4.91726 58.5842 6.4502 58.7529 8.27372L56.9368 8.27198ZM7.64556 2.87972C8.16048 2.26376 8.4162 1.47206 8.3588 0.669922C7.56902 0.744742 6.8384 1.12232 6.32174 1.72436C5.87988 2.23418 5.49022 3.0659 5.59111 3.8489C6.37219 3.91676 7.15326 3.4574 7.64556 2.87972ZM8.34836 4.00028C7.21415 3.93242 6.24868 4.64408 5.70766 4.64408C5.16491 4.64408 4.33513 4.03334 3.43924 4.05074C2.2511 4.08032 1.16908 4.73804 0.595017 5.77856C-0.624434 7.88048 0.273193 10.9986 1.45959 12.709C2.0354 13.5564 2.72949 14.489 3.64277 14.4542C4.50735 14.4211 4.84483 13.8939 5.89554 13.8939C6.94451 13.8939 7.24894 14.4542 8.16396 14.4368C9.11204 14.4194 9.70524 13.5894 10.281 12.742C10.6898 12.1417 11.0082 11.4858 11.2291 10.7932C11.2117 10.7758 9.40081 10.0816 9.38341 7.99706C9.36602 6.25184 10.8064 5.42186 10.8725 5.36966C10.0601 4.1708 8.79021 4.03508 8.34836 4.00028Z" fill="black" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className={styles.Image_372_1518}></div>
+                    </div>
+                    <div className={styles.Container_372_1519}>
+                      <div className={styles.Container_372_1520}><span className={styles.SethRogenTheZaneLoweInterview_372_1521}>Seth Rogen: The Zane Lowe
+                          Interview</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Margin_372_5839}>
+                <div className={styles.Container_372_5840}>
+                  <div className={styles.Component_6_372_5841}>
+                    <div className={styles.Background_372_1535}>
+                      <div className={styles.Gradient_372_1536}></div>
+                      <div className={styles.Container_372_1537}>
+                        <div className={styles.Component_4_372_1538}><svg width="68" height="15" viewBox="0 0 68 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.7148 10.8735H15.8265L14.654 14.3396H12.5829L17.2131 1.51757H19.3633L23.9935 14.3396H21.8873L20.7148 10.8735ZM16.3338 9.27467H20.2075L18.2961 3.6499H18.2435L16.3338 9.27467ZM25.0853 4.99072H26.916V6.58075H26.9598C27.2705 5.48738 28.106 4.83979 29.2083 4.83979C29.4838 4.83979 29.7243 4.88366 29.8665 4.91174V6.69833C29.7155 6.63691 29.3785 6.59128 29.0047 6.59128C27.769 6.59128 27.0055 7.41788 27.0055 8.74115V14.3396H25.0853V4.99072ZM36.8873 8.20763C36.6925 7.21255 35.9448 6.42104 34.6933 6.42104C33.2084 6.42104 32.2325 7.65656 32.2325 9.66428C32.2325 11.7176 33.2189 12.9075 34.7126 12.9075C35.8939 12.9075 36.6679 12.2582 36.8891 11.1753H38.7373C38.532 13.1655 36.9417 14.5169 34.6933 14.5169C32.0184 14.5169 30.2772 12.6864 30.2772 9.66604C30.2772 6.69833 32.0184 4.82399 34.6758 4.82399C37.0839 4.82399 38.5495 6.37015 38.7198 8.20939L36.8873 8.20763ZM39.7237 11.6825C39.7237 10.0469 40.977 9.04301 43.1991 8.91841L45.7582 8.76748V8.04793C45.7582 7.00897 45.0561 6.38594 43.8836 6.38594C42.7725 6.38594 42.0792 6.91946 41.9107 7.75484H40.0976C40.2047 6.06653 41.6439 4.82224 43.9538 4.82224C46.2198 4.82224 47.6678 6.0209 47.6678 7.897V14.3396H45.8284V12.8022H45.7845C45.2421 13.8412 44.0609 14.4993 42.834 14.4993C41.0033 14.4993 39.7237 13.3621 39.7237 11.6825ZM45.7582 10.8384V10.1013L43.4571 10.2434C42.3109 10.3242 41.6615 10.8296 41.6615 11.6299C41.6615 12.4477 42.3373 12.9812 43.3676 12.9812C44.7085 12.9795 45.7582 12.0563 45.7582 10.8384ZM49.0176 9.66604C49.0176 6.71588 50.5815 4.84154 52.9282 4.84154C54.2692 4.84154 55.3364 5.51722 55.8612 6.5474H55.8963V1.51757H57.8253V14.3396H55.9577V12.7496H55.9226C55.3715 13.8149 54.3061 14.4993 52.9458 14.4993C50.5815 14.4993 49.0176 12.6144 49.0176 9.66604ZM50.9817 9.66604C50.9817 11.6387 51.933 12.8742 53.453 12.8742C54.9274 12.8742 55.9138 11.6211 55.9138 9.66604C55.9138 7.72852 54.9274 6.4579 53.453 6.4579C51.933 6.4579 50.9817 7.70219 50.9817 9.66604ZM67.6404 11.593C67.3736 13.2989 65.7571 14.5169 63.6157 14.5169C60.8705 14.5169 59.2084 12.6601 59.2084 9.70991C59.2084 6.77731 60.8969 4.82224 63.5367 4.82224C66.1309 4.82224 67.7492 6.6527 67.7492 9.48703V10.1452H61.1461V10.261C61.1461 11.8861 62.1238 12.9619 63.6613 12.9619C64.7548 12.9619 65.5622 12.4109 65.8202 11.593C65.8185 11.593 67.6404 11.593 67.6404 11.593ZM61.1531 8.80258H65.8273C65.7834 7.37225 64.8759 6.36839 63.535 6.36839C62.194 6.36839 61.2514 7.3898 61.1531 8.80258ZM7.73675 2.76889C8.21593 2.16868 8.5424 1.36313 8.45639 0.540039C7.75431 0.575139 6.89776 1.00336 6.40104 1.60357C5.95521 2.11778 5.56204 2.95667 5.66385 3.74642C6.45194 3.81487 7.24003 3.35155 7.73675 2.76889ZM8.44761 3.89911C7.30322 3.83066 6.32907 4.54846 5.7832 4.54846C5.23558 4.54846 4.39834 3.93245 3.4944 3.95C2.31666 3.96755 1.22316 4.6327 0.624632 5.69272C-0.605772 7.81276 0.299917 10.9577 1.49697 12.6829C2.07795 13.5376 2.77828 14.4782 3.69976 14.4431C4.5721 14.4098 4.91262 13.878 5.97276 13.878C7.03116 13.878 7.33832 14.4431 8.26156 14.4256C9.21815 14.408 9.81668 13.5709 10.3977 12.7162C11.0646 11.7422 11.3367 10.8015 11.3542 10.7506C11.3367 10.7331 9.50952 10.0328 9.49197 7.93034C9.47441 6.17008 10.9277 5.33294 10.9944 5.28029C10.173 4.0711 8.89168 3.93421 8.44761 3.89911Z" fill="black" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.Container_372_1540}>
+                      <div className={styles.Container_372_1541}><span className={styles.PgaTourProGolf_372_1542}>PGA TOUR Pro Golf</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Margin_372_5851}>
+                <div className={styles.Container_372_5852}>
+                  <div className={styles.Component_6_372_5853}>
+                    <div className={styles.Background_372_1556}>
+                      <div className={styles.Gradient_372_1557}></div>
+                      <div className={styles.Container_372_1558}>
+                        <div className={styles.Component_4_372_1559}><svg width="78" height="15" viewBox="0 0 78 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.6575 14.3397V1.64557H21.5816V3.3431H15.6273V7.36368H21.0796V9.02647H15.6273V14.3397H13.6575ZM22.9087 2.63942C22.9087 2.03303 23.4002 1.54827 24.0082 1.54827C24.6144 1.54827 25.1077 2.03303 25.1077 2.63942C25.1077 3.23712 24.6161 3.73057 24.0082 3.73057C23.4002 3.73057 22.9087 3.23885 22.9087 2.63942ZM23.0581 5.08582H24.9583V14.3397H23.0581V5.08582ZM29.6516 2.89483V5.08582H31.4094V6.59049H29.6516V11.6918C29.6516 12.4928 30.0025 12.8524 30.7772 12.8524C30.97 12.8524 31.2792 12.8351 31.4007 12.809V14.3137C31.1906 14.3658 30.7685 14.4023 30.3447 14.4023C28.4722 14.4023 27.7409 13.6899 27.7409 11.9038V6.59049H26.3948V5.08582H27.7409V2.89483H29.6516ZM33.004 5.08582H34.8156V6.63393H34.8591C35.361 5.57753 36.3459 4.9277 37.7702 4.9277C39.8112 4.9277 40.9802 6.22909 40.9802 8.34884V14.3397H39.0712V8.71893C39.0712 7.32893 38.4199 6.56443 37.1015 6.56443C35.764 6.56443 34.9025 7.51484 34.9025 8.94828V14.3415H33.0022V5.08582H33.004ZM50.563 11.6206C50.299 13.3094 48.6993 14.5152 46.5802 14.5152C43.8635 14.5152 42.2186 12.677 42.2186 9.75622C42.2186 6.85285 43.8896 4.91728 46.502 4.91728C49.0693 4.91728 50.6707 6.72949 50.6707 9.53555V10.1871H44.1362V10.3018C44.1362 11.9107 45.1037 12.9758 46.6253 12.9758C47.7075 12.9758 48.5082 12.4302 48.7618 11.6206H50.563ZM44.1432 8.85967H48.7688C48.7253 7.4436 47.8273 6.44975 46.5003 6.44975C45.1715 6.44975 44.2387 7.46098 44.1432 8.85967ZM55.5221 4.91902C57.676 4.91902 59.0742 6.11615 59.1368 7.82238H57.3511C57.2452 6.92583 56.5869 6.36288 55.5221 6.36288C54.4938 6.36288 53.8077 6.86502 53.8077 7.60345C53.8077 8.18378 54.2298 8.57993 55.232 8.80928L56.7363 9.15157C58.6278 9.59115 59.3487 10.3296 59.3487 11.6675C59.3487 13.3563 57.775 14.517 55.5933 14.517C53.2797 14.517 51.8901 13.3824 51.7147 11.6223H53.5958C53.7712 12.5901 54.4313 13.0644 55.5916 13.0644C56.7345 13.0644 57.438 12.5901 57.438 11.8325C57.438 11.2348 57.0958 10.8821 56.0832 10.6528L54.5789 10.3018C52.8194 9.89695 51.9492 9.05253 51.9492 7.70597C51.9526 6.0536 53.3943 4.91902 55.5221 4.91902ZM64.1132 4.91902C66.267 4.91902 67.6653 6.11615 67.7278 7.82238H65.9422C65.8363 6.92583 65.178 6.36288 64.1132 6.36288C63.0849 6.36288 62.3988 6.86502 62.3988 7.60345C62.3988 8.18378 62.8209 8.57993 63.8231 8.80928L65.3273 9.15157C67.2189 9.59115 67.9397 10.3296 67.9397 11.6675C67.9397 13.3563 66.366 14.517 64.1844 14.517C61.8708 14.517 60.4812 13.3824 60.3057 11.6223H62.1869C62.3623 12.5901 63.0224 13.0644 64.1827 13.0644C65.3256 13.0644 66.0291 12.5901 66.0291 11.8325C66.0291 11.2348 65.6869 10.8821 64.6742 10.6528L63.17 10.3018C61.4105 9.89695 60.5402 9.05253 60.5402 7.70597C60.542 6.0536 61.9854 4.91902 64.1132 4.91902ZM74.3596 14.3519H72.6278V10.5815H69.0393V8.86662H72.6278V5.09798H74.3596V8.86662H77.9569V10.5815H74.3596V14.3519ZM7.62503 2.88614C8.10617 2.30408 8.42925 1.4944 8.34066 0.689941C7.64935 0.717741 6.81212 1.15038 6.31535 1.73244C5.87068 2.24674 5.47986 3.07205 5.58582 3.86088C6.35704 3.91995 7.14562 3.4682 7.62503 2.88614ZM8.32329 4.01378C7.19078 3.93038 6.23024 4.64623 5.69525 4.64623C5.15157 4.64623 4.31262 4.03115 3.42502 4.04853C2.25777 4.0659 1.18259 4.72789 0.579857 5.77387C-0.632551 7.87798 0.270676 10.9968 1.45182 12.7048C2.03023 13.5388 2.71807 14.4805 3.62304 14.4457C4.49326 14.411 4.82329 13.8828 5.87589 13.8828C6.9285 13.8828 7.22552 14.4457 8.14612 14.4301C9.08409 14.4127 9.67813 13.5787 10.2513 12.7395C10.9149 11.7717 11.1876 10.8335 11.2032 10.7831C11.1824 10.7744 9.3759 10.0811 9.35853 7.9996C9.3429 6.25863 10.7794 5.42289 10.8436 5.38119C10.0273 4.17884 8.76796 4.04679 8.32329 4.01378Z" fill="black" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.Container_372_1561}>
+                      <div className={styles.Container_372_1562}><span className={styles.StrengthWithGregg_372_1563}>Strength with Gregg</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Margin_372_5863}>
+                <div className={styles.Container_372_5864}>
+                  <div className={styles.Component_6_372_5865}>
+                    <div className={styles.Background_372_1391}>
+                      <div className={styles.Image_372_1394}></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Margin_372_5869}></div>
+              <div className={styles.Margin_372_5870}></div>
+              <div className={styles.Margin_372_5871}></div>
+              <div className={styles.Margin_372_5872}></div>
+              <div className={styles.Margin_372_5873}></div>
+              <div className={styles.Margin_372_5874}></div>
+              <div className={styles.Margin_372_5875}></div>
+            </div>
+            <div className={styles.Container_372_5876}>
+              <div className={styles.Component_7_372_5877}>
+                <div className={styles.MaskGroup_372_2333}>
+                  <div className={styles.Mask_372_2334}>
+                    <div className={styles.ImageFill_372_2335}>
+                      <div className={styles.Component_4_372_2336}>
+                        <div className={styles.Group_372_184}><svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M-5.59342e-05 7.40018V1.11218C-0.015454 0.989988 -0.00455261 0.86592 0.0319174 0.748289C0.0683875 0.630659 0.129583 0.522185 0.211403 0.430138C0.293222 0.338092 0.393773 0.2646 0.506317 0.214591C0.61886 0.164581 0.740794 0.139209 0.863944 0.140175C1.10004 0.1301 1.33324 0.195228 1.52994 0.326175L6.64794 3.32618C7.10394 3.59018 7.34994 3.80618 7.34994 4.23218C7.34994 4.65818 7.10394 4.87418 6.64794 5.13818L1.52994 8.13818C1.33324 8.26912 1.10004 8.33425 0.863944 8.32418C0.744728 8.32628 0.626397 8.30334 0.516604 8.25684C0.406811 8.21034 0.308 8.14131 0.226564 8.05422C0.145127 7.96713 0.0828775 7.86391 0.0438407 7.75125C0.00480396 7.63858 -0.0101507 7.51898 -5.59342e-05 7.40018Z" fill="black" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.Background_372_2339}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.Footer_372_5885}>
+        <div className={styles.Container_372_5887}>
+          <div className={styles.SectionFootnotes_372_5888}>
+            <div className={styles.List_372_5892}>
+              <div className={styles.Item_372_5893}><span className={styles.GetExtraTradeInCreditWhenYouTradeInAnEligibleIPhoneAndPurchaseANewEligibleAppleDeviceThroughJune_18_2025AdditionalTermsFromAppleOrAppleSTradeInPartnersMayApply_372_5894}>1. Get extra trade-in credit when you trade in an eligible iPhone and purchase a new eligible Apple device through June 18, 2025. Additional terms from Apple or Apple&#x2019;s trade-in
+                  partners may&#xA0;apply.</span><span className={styles.TradeInValuesWillVaryBasedOnTheConditionYearAndConfigurationOfYourEligibleTradeInDeviceNotAllDevicesAreEligibleForCreditYouMustBeAtLeastTheAgeOfMajorityToBeEligibleToTradeInForCreditOrForAnAppleGiftCardTradeInValueMayBeAppliedTowardQualifyingNewDevicePurchaseOrAddedToAnAppleGiftCardActualValueAwardedIsBasedOnReceiptOfAQualifyingDeviceMatchingTheDescriptionProvidedWhenEstimateWasMadeSalesTaxMayBeAssessedOnFullValueOfANewDevicePurchaseInStoreTradeInRequiresPresentationOfAValidPhotoIdLocalLawMayRequireSavingThisInformationOfferMayNotBeAvailableInAllStoresAndMayVaryBetweenInStoreAndOnlineTradeInSomeStoresMayHaveAdditionalRequirementsAppleOrItsTradeInPartnersReserveTheRightToRefuseCancelOrLimitQuantityOfAnyTradeInTransactionForAnyReasonMoreDetailsAreAvailableFromAppleSTradeInPartnerForTradeInAndRecyclingOfEligibleDevicesRestrictionsAndLimitationsMayApply_372_5896}>Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least the age of
+                  majority to be eligible to trade in for credit or for an Apple&#xA0;Gift&#xA0;Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple&#xA0;Gift&#xA0;Card.
+                  Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new
+                  device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary
+                  between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse, cancel, or limit quantity of any
+                  trade-in transaction for any reason. More details are available from Apple&#x2019;s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may&#xA0;apply.</span></div>
+              <div className={styles.Item_372_5897}><span className={styles.HearingAidAndHearingTestTheHearingAidFeatureHasReceivedFdaAuthorizationTheHearingTestAndHearingAidFeaturesAreSupportedOnAirPodsPro_2WithTheLatestFirmwarePairedWithACompatibleIPhoneOrIPadWithIOs_18OrIPadOs_18AndLaterAndAreIntendedForPeople_18YearsOldOrOlderTheHearingAidFeatureIsAlsoSupportedOnACompatibleMacWithMacOsSequoiaAndLaterItIsIntendedForPeopleWithPerceivedMildToModerateHearingLoss_372_5898}>2. Hearing&#xA0;Aid and Hearing&#xA0;Test: The Hearing&#xA0;Aid feature has received FDA authorization. The Hearing&#xA0;Test and Hearing&#xA0;Aid features are supported on AirPods&#xA0;Pro&#xA0;2 with the
+                  latest firmware paired with a compatible iPhone or iPad with iOS&#xA0;18 or iPadOS&#xA0;18 and later and are intended for people 18 years old or older. The Hearing Aid feature is also
+                  supported on a compatible Mac with macOS&#xA0;Sequoia and later. It is intended for people with perceived mild to moderate hearing&#xA0;loss.</span><span className={styles.HearingProtectionTheHearingProtectionFeatureWorksWithAirPodsPro_2WithTheLatestFirmwareWhenPairedWithACompatibleIPhoneIPadOrMacWithIOs_18IPadOs_18OrMacOsSequoiaAndLaterFeatureIsOnlyAvailableInTheUSAndCanadaSee_372_5899}>Hearing&#xA0;Protection: The Hearing&#xA0;Protection feature works with AirPods&#xA0;Pro&#xA0;2 with the latest firmware when paired with a compatible iPhone, iPad, or Mac with iOS&#xA0;18, iPadOS&#xA0;18,
+                  or macOS&#xA0;Sequoia and later. Feature is only available in the U.S. and Canada. See </span>
+                <div className={styles.Component_8_372_5900}><span className={styles.Text_372_1461}>support.apple.com/120850</span></div><span className={styles.ForTotalAttenuationAndMoreInformationTheHearingProtection_372_5902}> for total attenuation and more information. The Hearing&#xA0;Protection</span><span className={styles.FeatureIsNotSuitableForProtectionAgainstExtremelyLoudImpulseSoundsSuchAsGunfireFireworksOrJackhammersOrAgainstSustainedSoundsLouderThan_110DBa_372_5903}>feature is not suitable for protection against extremely loud impulse sounds, such as gunfire, fireworks, or jackhammers, or against sustained sounds louder than 110&#xA0;dBA.</span>
+              </div>
+              <div className={styles.Item_372_5904}><span className={styles.ToAccessAndUseAllAppleCardFeaturesAndProductsAvailableOnlyToAppleCardUsersYouMustAddAppleCardToWalletOnAnIPhoneOrIPadThatSupportsAndHasTheLatestVersionOfIOsOrIPadOsAppleCardIsSubjectToCreditApprovalAvailableOnlyForQualifyingApplicantsInTheUnitedStatesAndIssuedByGoldmanSachsBankUsaSaltLakeCityBranch_372_5905}>To access and use all Apple&#xA0;Card features and products available only to Apple&#xA0;Card users, you must add Apple&#xA0;Card to Wallet on an iPhone or iPad that supports and has the
+                  latest version of iOS or iPadOS. Apple&#xA0;Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA,
+                  Salt Lake City Branch.</span></div>
+              <div className={styles.Item_372_5906}><span className={styles.ApplePaymentsServicesLlcASubsidiaryOfAppleIncIsAServiceProviderOfGoldmanSachsBankUsaForAppleCardAndSavingsAccountsNeitherAppleIncNorApplePaymentsServicesLlcIsABank_372_5907}>Apple&#xA0;Payments Services LLC, a subsidiary of Apple&#xA0;Inc., is a service provider of Goldman Sachs Bank USA for Apple&#xA0;Card and Savings accounts. Neither Apple&#xA0;Inc. nor
+                  Apple&#xA0;Payments Services LLC is a bank.</span></div>
+              <div className={styles.Item_372_5908}><span className={styles.IfYouResideInTheUSTerritoriesPleaseCallGoldmanSachsAt_877_255_5923WithQuestionsAboutAppleCard_372_5909}>If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple&#xA0;Card.</span></div>
+              <div className={styles.Item_372_5910}><span className={styles.LearnMoreAboutHowAppleCardApplicationsAreEvaluatedAt_372_5911}>Learn more about how Apple&#xA0;Card applications are evaluated at&#xA0;</span>
+                <div className={styles.Component_8_372_5912}><span className={styles.Text_372_1461}>support.apple.com/kb/HT209218</span></div><span className={styles.generated__372_5914}>.</span>
+              </div>
+              <div className={styles.Item_372_5915}><span className={styles.AppleIntelligenceIsAvailableInBetaOnAllIPhone_16ModelsIPhone_15ProIPhone_15ProMaxIPadMiniA17ProAndIPadAndMacModelsWithM1AndLaterWithSiriAndDeviceLanguageSetToChineseSimplifiedEnglishAustraliaCanadaIndiaIrelandNewZealandSingaporeSouthAfricaUkOrUSFrenchGermanItalianJapaneseKoreanPortugueseBrazilOrSpanishAsPartOfAnIOs_18IPadOs_18AndMacOsSequoiaSoftwareUpdateWithMoreLanguagesComingOverTheCourseOfTheYearIncludingVietnameseSomeFeaturesMayNotBeAvailableInAllRegionsOrLanguages_372_5916}>Apple&#xA0;Intelligence is available in beta on all iPhone&#xA0;16 models, iPhone&#xA0;15&#xA0;Pro, iPhone&#xA0;15&#xA0;Pro&#xA0;Max, iPad&#xA0;mini (A17&#xA0;Pro), and iPad and Mac models with M1 and later, with Siri and
+                  device language set to Chinese (Simplified), English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, or U.S.), French, German, Italian, Japanese,
+                  Korean, Portuguese (Brazil), or Spanish, as part of an iOS&#xA0;18, iPadOS&#xA0;18, and macOS&#xA0;Sequoia software update, with more languages coming over the course of the year,
+                  including Vietnamese. Some features may not be available in all regions or&#xA0;languages.</span></div>
+              <div className={styles.Item_372_5917}><span className={styles.ASubscriptionIsRequiredForAppleArcadeAppleFitnessAppleMusicAndAppleTv_372_5918}>A subscription is required for Apple&#xA0;Arcade, Apple&#xA0;Fitness+, Apple&#xA0;Music, and Apple&#xA0;TV+.</span></div>
+              <div className={styles.Item_372_5919}><span className={styles.FeaturesAreSubjectToChangeSomeFeaturesApplicationsAndServicesMayNotBeAvailableInAllRegionsOrAllLanguages_372_5920}>Features are subject to change. Some features, applications, and services may not be available in all regions or all languages.</span></div>
+            </div>
+          </div>
+          <div className={styles.NavigationAppleDirectory_372_5921}>
+            <div className={styles.Container_372_5922}>
+              <div className={styles.Container_372_5924}>
+                <div className={styles.Heading_3_372_5926}><span className={styles.ShopAndLearn_372_5927}>Shop and Learn</span></div>
+                <div className={styles.List_372_5929}>
+                  <div className={styles.Listitem_372_5931}>
+                    <div className={styles.Component_8_372_5932}><span className={styles.Text_372_1452}>Store</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5934}>
+                    <div className={styles.Component_8_372_5935}><span className={styles.Text_372_1452}>Mac</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5937}>
+                    <div className={styles.Component_8_372_5938}><span className={styles.Text_372_1452}>iPad</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5940}>
+                    <div className={styles.Component_8_372_5941}><span className={styles.Text_372_1452}>iPhone</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5943}>
+                    <div className={styles.Component_8_372_5944}><span className={styles.Text_372_1452}>Watch</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5946}>
+                    <div className={styles.Component_8_372_5947}><span className={styles.Text_372_1452}>Vision</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5949}>
+                    <div className={styles.Component_8_372_5950}><span className={styles.Text_372_1452}>AirPods</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5952}>
+                    <div className={styles.Component_8_372_5953}><span className={styles.Text_372_1452}>TV &#x26; Home</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5955}>
+                    <div className={styles.Component_8_372_5956}><span className={styles.Text_372_1452}>AirTag</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5958}>
+                    <div className={styles.Component_8_372_5959}><span className={styles.Text_372_1452}>Accessories</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5961}>
+                    <div className={styles.Component_8_372_5962}><span className={styles.Text_372_1452}>Gift Cards</span></div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Container_372_5964}>
+                <div className={styles.Heading_3_372_5966}><span className={styles.AppleWallet_372_5967}>Apple Wallet</span></div>
+                <div className={styles.List_372_5968}>
+                  <div className={styles.Listitem_372_5969}>
+                    <div className={styles.Component_8_372_5970}><span className={styles.Text_372_1452}>Wallet</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5972}>
+                    <div className={styles.Component_8_372_5973}><span className={styles.Text_372_1452}>Apple&#xA0;Card</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5975}>
+                    <div className={styles.Component_8_372_5976}><span className={styles.Text_372_1452}>Apple&#xA0;Pay</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5978}>
+                    <div className={styles.Component_8_372_5979}><span className={styles.Text_372_1452}>Apple&#xA0;Cash</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Container_372_5981}>
+              <div className={styles.Container_372_5982}>
+                <div className={styles.Heading_3_372_5983}><span className={styles.Account_372_5984}>Account</span></div>
+                <div className={styles.List_372_5985}>
+                  <div className={styles.Listitem_372_5986}>
+                    <div className={styles.Component_8_372_5987}><span className={styles.Text_372_1452}>Manage Your Apple Account</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5989}>
+                    <div className={styles.Component_8_372_5990}><span className={styles.Text_372_1452}>Apple Store Account</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_5992}>
+                    <div className={styles.Component_8_372_5993}><span className={styles.Text_372_1452}>iCloud.com</span></div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Container_372_5995}>
+                <div className={styles.Heading_3_372_5996}><span className={styles.Entertainment_372_5997}>Entertainment</span></div>
+                <div className={styles.List_372_5998}>
+                  <div className={styles.Listitem_372_5999}>
+                    <div className={styles.Component_8_372_6000}><span className={styles.Text_372_1452}>Apple&#xA0;One</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6002}>
+                    <div className={styles.Component_8_372_6003}><span className={styles.Text_372_1452}>Apple&#xA0;TV+</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6005}>
+                    <div className={styles.Component_8_372_6006}><span className={styles.Text_372_1452}>Apple&#xA0;Music</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6008}>
+                    <div className={styles.Component_8_372_6009}><span className={styles.Text_372_1452}>Apple&#xA0;Arcade</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6011}>
+                    <div className={styles.Component_8_372_6012}><span className={styles.Text_372_1452}>Apple&#xA0;Fitness+</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6014}>
+                    <div className={styles.Component_8_372_6015}><span className={styles.Text_372_1452}>Apple&#xA0;News+</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6017}>
+                    <div className={styles.Component_8_372_6018}><span className={styles.Text_372_1452}>Apple Podcasts</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6020}>
+                    <div className={styles.Component_8_372_6021}><span className={styles.Text_372_1452}>Apple&#xA0;Books</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6023}>
+                    <div className={styles.Component_8_372_6024}><span className={styles.Text_372_1452}>App&#xA0;Store</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Container_372_6026}>
+              <div className={styles.Container_372_6027}>
+                <div className={styles.Heading_3_372_6028}><span className={styles.AppleStore_372_6029}>Apple Store</span></div>
+                <div className={styles.List_372_6030}>
+                  <div className={styles.Listitem_372_6031}>
+                    <div className={styles.Component_8_372_6032}><span className={styles.Text_372_1452}>Find a Store</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6034}>
+                    <div className={styles.Component_8_372_6035}><span className={styles.Text_372_1452}>Genius Bar</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6037}>
+                    <div className={styles.Component_8_372_6038}><span className={styles.Text_372_1452}>Today at Apple</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6040}>
+                    <div className={styles.Component_8_372_6041}><span className={styles.Text_372_1452}>Group Reservations</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6043}>
+                    <div className={styles.Component_8_372_6044}><span className={styles.Text_372_1452}>Apple Camp</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6046}>
+                    <div className={styles.Component_8_372_6047}><span className={styles.Text_372_1452}>Apple Store App</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6049}>
+                    <div className={styles.Component_8_372_6050}><span className={styles.Text_372_1452}>Certified Refurbished</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6052}>
+                    <div className={styles.Component_8_372_6053}><span className={styles.Text_372_1452}>Apple&#xA0;Trade&#xA0;In</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6055}>
+                    <div className={styles.Component_8_372_6056}><span className={styles.Text_372_1452}>Financing</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6058}>
+                    <div className={styles.Component_8_372_6059}><span className={styles.Text_372_1452}>Carrier Deals at Apple</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6061}>
+                    <div className={styles.Component_8_372_6062}><span className={styles.Text_372_1452}>Order Status</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6064}>
+                    <div className={styles.Component_8_372_6065}><span className={styles.Text_372_1452}>Shopping Help</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Container_372_6067}>
+              <div className={styles.Container_372_6068}>
+                <div className={styles.Heading_3_372_6069}><span className={styles.ForBusiness_372_6070}>For Business</span></div>
+                <div className={styles.List_372_6071}>
+                  <div className={styles.Listitem_372_6072}>
+                    <div className={styles.Component_8_372_6073}><span className={styles.Text_372_1452}>Apple and Business</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6075}>
+                    <div className={styles.Component_8_372_6076}><span className={styles.Text_372_1452}>Shop for Business</span></div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Container_372_6078}>
+                <div className={styles.Heading_3_372_6079}><span className={styles.ForEducation_372_6080}>For Education</span></div>
+                <div className={styles.List_372_6081}>
+                  <div className={styles.Listitem_372_6082}>
+                    <div className={styles.Component_8_372_6083}><span className={styles.Text_372_1452}>Apple and Education</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6085}>
+                    <div className={styles.Component_8_372_6086}><span className={styles.Text_372_1452}>Shop for K-12</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6088}>
+                    <div className={styles.Component_8_372_6089}><span className={styles.Text_372_1452}>Shop for College</span></div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Container_372_6091}>
+                <div className={styles.Heading_3_372_6092}><span className={styles.ForHealthcare_372_6093}>For Healthcare</span></div>
+                <div className={styles.List_372_6094}>
+                  <div className={styles.Listitem_372_6095}>
+                    <div className={styles.Component_8_372_6096}><span className={styles.Text_372_1452}>Apple in Healthcare</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6098}>
+                    <div className={styles.Component_8_372_6099}><span className={styles.Text_372_1452}>Mac in Healthcare</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6101}>
+                    <div className={styles.Component_8_372_6102}><span className={styles.Text_372_1452}>Health on Apple&#xA0;Watch</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6104}>
+                    <div className={styles.Component_8_372_6105}><span className={styles.Text_372_1452}>Health Records on iPhone and
+                        iPad</span></div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Container_372_6107}>
+                <div className={styles.Heading_3_372_6108}><span className={styles.ForGovernment_372_6109}>For Government</span></div>
+                <div className={styles.List_372_6110}>
+                  <div className={styles.Listitem_372_6111}>
+                    <div className={styles.Component_8_372_6112}><span className={styles.Text_372_1452}>Shop for Government</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6114}>
+                    <div className={styles.Component_8_372_6115}><span className={styles.Text_372_1452}>Shop for Veterans and Military</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Container_372_6117}>
+              <div className={styles.Container_372_6119}>
+                <div className={styles.Heading_3_372_6120}><span className={styles.AppleValues_372_6121}>Apple Values</span></div>
+                <div className={styles.List_372_6122}>
+                  <div className={styles.Listitem_372_6123}>
+                    <div className={styles.Component_8_372_6124}><span className={styles.Text_372_1452}>Accessibility</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6126}>
+                    <div className={styles.Component_8_372_6127}><span className={styles.Text_372_1452}>Education</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6129}>
+                    <div className={styles.Component_8_372_6130}><span className={styles.Text_372_1452}>Environment</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6132}>
+                    <div className={styles.Component_8_372_6133}><span className={styles.Text_372_1452}>Inclusion and Diversity</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6135}>
+                    <div className={styles.Component_8_372_6136}><span className={styles.Text_372_1452}>Privacy</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6138}>
+                    <div className={styles.Component_8_372_6139}><span className={styles.Text_372_1452}>Racial Equity and Justice</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6141}>
+                    <div className={styles.Component_8_372_6142}><span className={styles.Text_372_1452}>Supply Chain</span></div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.Container_372_6144}>
+                <div className={styles.Heading_3_372_6145}><span className={styles.AboutApple_372_6146}>About Apple</span></div>
+                <div className={styles.List_372_6147}>
+                  <div className={styles.Listitem_372_6148}>
+                    <div className={styles.Component_8_372_6149}><span className={styles.Text_372_1452}>Newsroom</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6151}>
+                    <div className={styles.Component_8_372_6152}><span className={styles.Text_372_1452}>Apple Leadership</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6154}>
+                    <div className={styles.Component_8_372_6155}><span className={styles.Text_372_1452}>Career Opportunities</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6157}>
+                    <div className={styles.Component_8_372_6158}><span className={styles.Text_372_1452}>Investors</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6160}>
+                    <div className={styles.Component_8_372_6161}><span className={styles.Text_372_1452}>Ethics &#x26; Compliance</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6163}>
+                    <div className={styles.Component_8_372_6164}><span className={styles.Text_372_1452}>Events</span></div>
+                  </div>
+                  <div className={styles.Listitem_372_6166}>
+                    <div className={styles.Component_8_372_6167}><span className={styles.Text_372_1452}>Contact Apple</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.Section_372_6169}>
+            <div className={styles.HorizontalBorder_372_6170}><span className={styles.MoreWaysToShop_372_6171}>More ways to shop: </span>
+              <div className={styles.Component_8_372_6172}><span className={styles.Text_372_1455}>Find an Apple Store</span></div><span className={styles.Or_372_6174}> or </span>
+              <div className={styles.Component_8_372_6175}><span className={styles.Text_372_1455}>other retailer</span></div><span className={styles.NearYouOrCall_372_6177}> near you. Or call </span>
+              <div className={styles.Component_8_372_6178}><span className={styles.Text_372_1455}>1-800-MY-APPLE</span></div><span className={styles._800_692_7753_372_6180}> (1-800-692-7753).</span>
+            </div>
+            <div className={styles.Container_372_6181}>
+              <div className={styles.Container_372_6183}><span className={styles.Copyright_2025AppleIncAllRightsReserved_372_6185}>Copyright &#xA9; 2025 Apple Inc. All rights reserved.</span></div>
+              <div className={styles.List_372_6186}>
+                <div className={styles.Listitem_372_6188}>
+                  <div className={styles.Component_8_372_6189}><span className={styles.Text_372_1452}>Privacy Policy</span></div>
+                  <div className={styles.VerticalDivider_372_6191}></div>
+                </div>
+                <div className={styles.Listitem_372_6194}>
+                  <div className={styles.Component_8_372_6195}><span className={styles.Text_372_1452}>Terms of Use</span></div>
+                  <div className={styles.VerticalDivider_372_6197}></div>
+                </div>
+                <div className={styles.Listitem_372_6198}>
+                  <div className={styles.Component_8_372_6199}><span className={styles.Text_372_1452}>Sales and Refunds</span></div>
+                  <div className={styles.VerticalDivider_372_6201}></div>
+                </div>
+                <div className={styles.Listitem_372_6202}>
+                  <div className={styles.Component_8_372_6203}><span className={styles.Text_372_1452}>Legal</span></div>
+                  <div className={styles.VerticalDivider_372_6205}></div>
+                </div>
+                <div className={styles.Component_8_372_6206}><span className={styles.Text_372_1452}>Site Map</span></div>
+              </div>
+            </div>
+            <div className={styles.Container_372_6208}>
+              <div className={styles.Component_8_372_6209}><span className={styles.Text_372_1459}>United States</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.NavGlobal_372_6212}>
+        <div className={styles.Container_372_6215}>
+          <div className={styles.List_372_6216}>
+            <div className={styles.Component_9_372_6217}>
+              <div className={styles.Container_372_2346}>
+                <div className={styles.Container_372_2347}>
+                  <div className={styles.Component_4_372_2348}><svg width="31" height="44" viewBox="0 0 31 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M26.7179 20.4629C27.7199 20.4629 28.3879 21.2009 28.4109 22.3199H24.9309C25.0069 21.2009 25.7099 20.4629 26.7179 20.4629ZM29.4719 23.1349V22.7479C29.4719 20.7849 28.4349 19.5719 26.7299 19.5719C24.9949 19.5719 23.8819 20.8609 23.8819 22.8479C23.8819 24.8459 24.9779 26.1109 26.7299 26.1109C28.1129 26.1109 29.0969 25.4429 29.3899 24.3649H28.3819C28.1179 24.9219 27.5679 25.2209 26.7529 25.2209C25.6809 25.2209 24.9839 24.4299 24.9309 23.1819V23.1349H29.4719ZM19.9249 19.6839H20.8849V20.6209H20.9789C21.1669 20.0059 21.8929 19.5719 22.7309 19.5719C22.8949 19.5719 23.1059 19.5839 23.2349 19.6019V20.6089C23.1529 20.5859 22.7899 20.5509 22.5909 20.5509C21.6299 20.5509 20.9319 21.6489 20.9319 22.0859V25.9999H19.9249V19.6839ZM15.6549 25.2029C14.4599 25.2029 13.7859 24.3359 13.7859 22.8419C13.7859 21.3419 14.4599 20.4809 15.6549 20.4809C16.8509 20.4809 17.5249 21.3419 17.5249 22.8419C17.5249 24.3359 16.8509 25.2029 15.6549 25.2029ZM15.6549 19.5719C13.8569 19.5719 12.7429 20.8089 12.7429 22.8419C12.7429 24.8689 13.8569 26.1109 15.6549 26.1109C17.4539 26.1109 18.5679 24.8689 18.5679 22.8419C18.5679 20.8089 17.4539 19.5719 15.6549 19.5719ZM10.1769 18.0969V19.7319H11.5839V20.5749H10.1769V24.1499C10.1769 24.8939 10.4589 25.2099 11.1149 25.2099C11.2969 25.2099 11.3959 25.2039 11.5839 25.1869V26.0359C11.3849 26.0709 11.1909 26.0949 10.9919 26.0949C9.69089 26.0949 9.16989 25.6139 9.16989 24.4069V20.5749H8.14989V19.7319H9.16989V18.0969H10.1769ZM2.07389 23.7909C2.20289 24.6759 3.04689 25.2379 4.24789 25.2379C5.38489 25.2379 6.22289 24.6229 6.22289 23.7849C6.22289 23.0649 5.69589 22.6079 4.52989 22.3149L3.44589 22.0329C1.91589 21.6469 1.25389 20.9549 1.25389 19.7539C1.25389 18.3179 2.45489 17.3459 4.24189 17.3459C5.87689 17.3459 7.09589 18.3179 7.18389 19.6839H6.12289C5.97689 18.8169 5.26189 18.3009 4.20689 18.3009C3.08189 18.3009 2.33789 18.8629 2.33789 19.7189C2.33789 20.3809 2.80089 20.7619 3.96689 21.0609L4.85189 21.2949C6.60389 21.7339 7.30689 22.4139 7.30689 23.6559C7.30689 25.2089 6.08189 26.1989 4.14889 26.1989C2.35589 26.1989 1.11889 25.2499 1.00789 23.7909H2.07389Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6223}>
+              <div className={styles.Container_372_2356}>
+                <div className={styles.Container_372_2357}>
+                  <div className={styles.Component_4_372_2358}><svg width="24" height="44" viewBox="0 0 24 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.4458 25.9987V19.5417H8.3755L5.7095 25.9987H4.8188L2.1528 19.5417H2.0825V25.9987H1.0981V17.5436H2.3227L5.2172 24.5983H5.311L8.2055 17.5436H9.4301V25.9987H8.4458ZM10.9624 24.2291C10.9624 23.0982 11.7944 22.4479 13.2651 22.36L15.0874 22.2487V21.6745C15.0874 20.8952 14.6011 20.4675 13.6577 20.4675C12.9018 20.4675 12.3745 20.7546 12.2339 21.2527H11.2144C11.3492 20.239 12.3453 19.5711 13.6929 19.5711C15.2339 19.5711 16.0952 20.3621 16.0952 21.6746V25.9988H15.1343V25.067H15.0405C14.6303 25.7408 13.9389 26.11 13.0952 26.11C11.8706 26.11 10.9624 25.3834 10.9624 24.2291ZM15.0874 23.6432V23.0631L13.3882 23.1744C12.4273 23.2389 12.0054 23.5728 12.0054 24.2056C12.0054 24.8501 12.5503 25.2251 13.2827 25.2251C14.3198 25.2252 15.0874 24.5455 15.0874 23.6432ZM22.0454 21.6159C21.8813 20.9889 21.3247 20.4792 20.4165 20.4792C19.2798 20.4792 18.5649 21.3874 18.5649 22.8171C18.5649 24.2761 19.2915 25.2019 20.4165 25.2019C21.2661 25.2019 21.8579 24.8093 22.0454 24.0945H23.0649C22.8833 25.2547 21.9399 26.1101 20.4223 26.1101C18.6528 26.1101 17.5219 24.8269 17.5219 22.8171C17.5219 20.8483 18.6469 19.571 20.4164 19.571C21.9516 19.571 22.8891 20.4909 23.0648 21.6159H22.0454Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6229}>
+              <div className={styles.Container_372_2366}>
+                <div className={styles.Container_372_2367}>
+                  <div className={styles.Component_4_372_2368}><svg width="25" height="44" viewBox="0 0 25 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.3975 23.7002C15.3975 24.6022 14.6295 25.2822 13.5925 25.2822C12.8605 25.2822 12.3155 24.9072 12.3155 24.2622C12.3155 23.6302 12.7375 23.2962 13.6985 23.2312L15.3975 23.1202V23.7002ZM14.0025 19.6282C12.6555 19.6282 11.6595 20.2962 11.5245 21.3092H12.5435C12.6845 20.8112 13.2115 20.5242 13.9675 20.5242C14.9115 20.5242 15.3975 20.9522 15.3975 21.7312V22.3052L13.5755 22.4172C12.1045 22.5052 11.2725 23.1552 11.2725 24.2862C11.2725 25.4402 12.1805 26.1672 13.4055 26.1672C14.2495 26.1672 14.9405 25.7982 15.3505 25.1242H15.4445V26.0552H16.4055V21.7312C16.4055 20.4192 15.5435 19.6282 14.0025 19.6282ZM20.7715 25.2032C19.6165 25.2032 18.9255 24.3182 18.9255 22.8422C18.9255 21.3712 19.6225 20.4802 20.7715 20.4802C21.9135 20.4802 22.6285 21.3942 22.6285 22.8422C22.6285 24.3012 21.9195 25.2032 20.7715 25.2032ZM22.6055 17.1762V20.6792H22.5175C22.1595 19.9882 21.4155 19.5722 20.5365 19.5722C18.9315 19.5722 17.8825 20.8612 17.8825 22.8422C17.8825 24.8282 18.9195 26.1112 20.5365 26.1112C21.4095 26.1112 22.1595 25.6952 22.5585 24.9922H22.6515V26.0002H23.6125V17.1762H22.6055ZM7.2115 22.0452H5.3485V18.4822H7.2115C8.4365 18.4822 9.1105 19.1212 9.1105 20.2812C9.1105 21.4002 8.4135 22.0452 7.2115 22.0452ZM7.4875 17.5452H4.2935V26.0002H5.3485V22.9822H7.4755C9.0635 22.9822 10.1945 21.8632 10.1945 20.2812C10.1945 18.6702 9.0865 17.5452 7.4875 17.5452ZM1.4235 25.9992H2.4315V19.6832H1.4235V25.9992ZM1.2245 17.7622C1.2245 17.3752 1.5405 17.0582 1.9275 17.0582C2.3145 17.0582 2.6305 17.3752 2.6305 17.7622C2.6305 18.1482 2.3145 18.4652 1.9275 18.4652C1.5405 18.4652 1.2245 18.1482 1.2245 17.7622Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6235}>
+              <div className={styles.Container_372_2376}>
+                <div className={styles.Container_372_2377}>
+                  <div className={styles.Component_4_372_2378}><svg width="39" height="44" viewBox="0 0 39 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M33.2929 22.3203H36.7729C36.7499 21.2013 36.0819 20.4633 35.0799 20.4633C34.0719 20.4633 33.3689 21.2013 33.2929 22.3203ZM37.7519 24.3653C37.4589 25.4433 36.4749 26.1113 35.0919 26.1113C33.3399 26.1113 32.2439 24.8453 32.2439 22.8473C32.2439 20.8613 33.3569 19.5723 35.0919 19.5723C36.7969 19.5723 37.8339 20.7853 37.8339 22.7483V23.1343H33.2929V23.1813C33.3459 24.4293 34.0429 25.2203 35.1149 25.2203C35.9299 25.2203 36.4809 24.9223 36.7439 24.3653H37.7519ZM25.4699 19.6833H26.4309V20.6793H26.5249C26.8409 19.9823 27.4569 19.5723 28.4229 19.5723C29.8409 19.5723 30.6319 20.4103 30.6319 21.9103V26.0003H29.6249V22.1563C29.6249 21.0193 29.1439 20.4803 28.1359 20.4803C27.1279 20.4803 26.4779 21.1543 26.4779 22.2613V26.0003H25.4699V19.6833ZM22.9709 22.8413C22.9709 21.3413 22.2969 20.4803 21.1019 20.4803C19.9059 20.4803 19.2319 21.3413 19.2319 22.8413C19.2319 24.3363 19.9059 25.2033 21.1019 25.2033C22.2969 25.2033 22.9709 24.3363 22.9709 22.8413ZM18.1889 22.8413C18.1889 20.8083 19.3029 19.5723 21.1019 19.5723C22.8999 19.5723 24.0139 20.8083 24.0139 22.8413C24.0139 24.8693 22.8999 26.1113 21.1019 26.1113C19.3029 26.1113 18.1889 24.8693 18.1889 22.8413ZM11.5529 17.1753H12.5609V20.6793H12.6539C12.9709 19.9823 13.6329 19.5723 14.5999 19.5723C15.9359 19.5723 16.7789 20.4273 16.7789 21.9103V26.0003H15.7719V22.1563C15.7719 21.0373 15.2679 20.4803 14.3129 20.4803C13.1819 20.4803 12.5609 21.1953 12.5609 22.2613V26.0003H11.5529V17.1753ZM5.5379 22.0453H7.4009C8.6029 22.0453 9.2999 21.4003 9.2999 20.2813C9.2999 19.1213 8.6259 18.4823 7.4009 18.4823H5.5379V22.0453ZM7.6769 17.5453C9.2759 17.5453 10.3839 18.6703 10.3839 20.2813C10.3839 21.8633 9.2529 22.9823 7.6649 22.9823H5.5379V26.0003H4.4829V17.5453H7.6769ZM1.5629 25.9993H2.5709V19.6833H1.5629V25.9993ZM1.3629 17.7613C1.3629 17.3753 1.6799 17.0583 2.0659 17.0583C2.4529 17.0583 2.7699 17.3753 2.7699 17.7613C2.7699 18.1483 2.4529 18.4653 2.0659 18.4653C1.6799 18.4653 1.3629 18.1483 1.3629 17.7613Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6241}>
+              <div className={styles.Container_372_2386}>
+                <div className={styles.Container_372_2387}>
+                  <div className={styles.Component_4_372_2388}><svg width="36" height="44" viewBox="0 0 36 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M29.7119 17.1758H30.7199V20.6798H30.8139C31.1299 19.9828 31.7919 19.5718 32.7589 19.5718C34.0949 19.5718 34.9389 20.4278 34.9389 21.9098V25.9998H33.9309V22.1558C33.9309 21.0368 33.4269 20.4808 32.4719 20.4808C31.3409 20.4808 30.7199 21.1958 30.7199 22.2618V25.9998H29.7119V17.1758ZM27.2919 21.6168C27.1279 20.9898 26.5709 20.4808 25.6629 20.4808C24.5259 20.4808 23.8109 21.3888 23.8109 22.8188C23.8109 24.2778 24.5379 25.2028 25.6629 25.2028C26.5119 25.2028 27.1039 24.8108 27.2919 24.0958H28.3109C28.1289 25.2558 27.1859 26.1118 25.6689 26.1118C23.8989 26.1118 22.7679 24.8278 22.7679 22.8188C22.7679 20.8498 23.8929 19.5718 25.6629 19.5718C27.1979 19.5718 28.1349 20.4918 28.3109 21.6168H27.2919ZM20.7589 18.0488V19.6838H22.1659V20.5278H20.7589V24.1018C20.7589 24.8458 21.0409 25.1618 21.6969 25.1618C21.8789 25.1618 21.9779 25.1558 22.1659 25.1388V25.9888C21.9659 26.0238 21.7729 26.0468 21.5739 26.0468C20.2729 26.0468 19.7519 25.5668 19.7519 24.3598V20.5278H18.7319V19.6838H19.7519V18.0488H20.7589ZM16.5589 23.6448V23.0648L14.8599 23.1758C13.8989 23.2398 13.4769 23.5738 13.4769 24.2068C13.4769 24.8518 14.0219 25.2268 14.7539 25.2268C15.7919 25.2268 16.5589 24.5468 16.5589 23.6448ZM12.4339 24.2308C12.4339 23.0998 13.2659 22.4488 14.7369 22.3618L16.5589 22.2498V21.6758C16.5589 20.8968 16.0729 20.4688 15.1289 20.4688C14.3739 20.4688 13.8459 20.7558 13.7059 21.2538H12.6859C12.8209 20.2398 13.8169 19.5718 15.1649 19.5718C16.7059 19.5718 17.5669 20.3638 17.5669 21.6758V25.9998H16.6059V25.0688H16.5119C16.1019 25.7418 15.4109 26.1118 14.5669 26.1118C13.3419 26.1118 12.4339 25.3848 12.4339 24.2308ZM4.74991 25.9998H3.75391L1.45091 17.5448H2.55191L4.23391 24.4178H4.30391L6.19691 17.5448H7.26291L9.15591 24.4178H9.22591L10.9079 17.5448H12.0089L9.70691 25.9998H8.71091L6.76491 19.3258H6.69491L4.74991 25.9998Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6247}>
+              <div className={styles.Container_372_2396}>
+                <div className={styles.Container_372_2397}>
+                  <div className={styles.Component_4_372_2398}><svg width="35" height="44" viewBox="0 0 35 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.2843 17.5449H2.3917L4.8761 24.6347H4.9699L7.4543 17.5449H8.5617L5.4445 26H4.4015L1.2843 17.5449ZM9.631 17.7617C9.631 17.375 9.9474 17.0586 10.3341 17.0586C10.7208 17.0586 11.0372 17.375 11.0372 17.7617C11.0372 18.1484 10.7208 18.4648 10.3341 18.4648C9.9474 18.4648 9.631 18.1484 9.631 17.7617ZM9.8185 19.6836H10.838V26H9.8185V19.6836ZM12.3175 24.3887H13.3605C13.5304 24.916 14.0343 25.2617 14.8429 25.2617C15.6925 25.2617 16.296 24.8574 16.296 24.2832V24.2715C16.296 23.8438 15.9737 23.5449 15.1944 23.3574L14.2159 23.123C13.0323 22.8418 12.4991 22.3261 12.4991 21.4179V21.412C12.4991 20.3632 13.5069 19.5722 14.8487 19.5722C16.1729 19.5722 17.0928 20.2343 17.2335 21.2656H16.2315C16.0967 20.7676 15.6045 20.4218 14.8428 20.4218C14.0928 20.4218 13.542 20.8085 13.542 21.3652V21.3769C13.542 21.8046 13.8584 22.0742 14.6025 22.2558L15.5752 22.4902C16.7647 22.7773 17.3389 23.2929 17.3389 24.1953V24.207C17.3389 25.332 16.2432 26.1113 14.8077 26.1113C13.4015 26.1113 12.4347 25.4317 12.3175 24.3887ZM18.6378 17.7617C18.6378 17.375 18.9542 17.0586 19.3409 17.0586C19.7276 17.0586 20.044 17.375 20.044 17.7617C20.044 18.1484 19.7276 18.4648 19.3409 18.4648C18.9542 18.4648 18.6378 18.1484 18.6378 17.7617ZM18.8253 19.6836H19.8448V26H18.8253V19.6836ZM21.3302 22.8477V22.836C21.3302 20.8087 22.4435 19.5723 24.2423 19.5723C26.0411 19.5723 27.1544 20.8086 27.1544 22.836V22.8477C27.1544 24.8692 26.0411 26.1114 24.2423 26.1114C22.4435 26.1114 21.3302 24.8692 21.3302 22.8477ZM26.1114 22.8477V22.836C26.1114 21.3419 25.4376 20.4747 24.2423 20.4747C23.047 20.4747 22.3732 21.3419 22.3732 22.836V22.8477C22.3732 24.336 23.047 25.209 24.2423 25.209C25.4376 25.209 26.1114 24.336 26.1114 22.8477ZM28.6163 19.6836H29.6358V20.6328H29.7296C30.046 19.9648 30.6378 19.5723 31.5694 19.5723C32.9874 19.5723 33.7784 20.4102 33.7784 21.9102V26H32.7589V22.1562C32.7589 21.0195 32.2901 20.4746 31.2823 20.4746C30.2745 20.4746 29.6358 21.1543 29.6358 22.2617V26H28.6163V19.6836Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6253}>
+              <div className={styles.Container_372_2406}>
+                <div className={styles.Container_372_2407}>
+                  <div className={styles.Component_4_372_2408}><svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.7353 19.6836H12.6963V20.6206H12.7903C12.9773 20.0056 13.7043 19.5726 14.5423 19.5726C14.7063 19.5726 14.9173 19.5836 15.0463 19.6016V20.6096C14.9643 20.5856 14.6003 20.5506 14.4013 20.5506C13.4403 20.5506 12.7433 21.1956 12.7433 22.0856V25.9996H11.7353V19.6836ZM39.8703 19.5726C41.1943 19.5726 42.1143 20.2286 42.2493 21.2656H41.2533C41.1183 20.7616 40.6263 20.4276 39.8643 20.4276C39.1143 20.4276 38.5283 20.8086 38.5283 21.3706C38.5283 21.8046 38.8803 22.0746 39.6243 22.2556L40.5973 22.4906C41.7863 22.7776 42.3603 23.2926 42.3603 24.2016C42.3603 25.3316 41.2653 26.1116 39.8293 26.1116C38.4233 26.1116 37.4563 25.4376 37.3453 24.3886H38.3823C38.5523 24.9216 39.0563 25.2616 39.8643 25.2616C40.7143 25.2616 41.3233 24.8576 41.3233 24.2776C41.3233 23.8436 40.9953 23.5506 40.3213 23.3866L39.2373 23.1226C38.0543 22.8356 37.5153 22.3266 37.5153 21.4126C37.5153 20.3636 38.5283 19.5726 39.8703 19.5726ZM33.2053 25.2036C32.0503 25.2036 31.3593 24.3186 31.3593 22.8416C31.3593 21.3706 32.0563 20.4806 33.2053 20.4806C34.3473 20.4806 35.0623 21.3946 35.0623 22.8416C35.0623 24.3006 34.3533 25.2036 33.2053 25.2036ZM35.0393 17.1756V20.6796H34.9513C34.5933 19.9886 33.8493 19.5726 32.9703 19.5726C31.3653 19.5726 30.3163 20.8616 30.3163 22.8416C30.3163 24.8286 31.3533 26.1116 32.9703 26.1116C33.8433 26.1116 34.5933 25.6956 34.9923 24.9926H35.0863V25.9996H36.0473V17.1756H35.0393ZM26.0383 25.2036C24.8433 25.2036 24.1693 24.3356 24.1693 22.8416C24.1693 21.3416 24.8433 20.4806 26.0383 20.4806C27.2343 20.4806 27.9073 21.3416 27.9073 22.8416C27.9073 24.3356 27.2343 25.2036 26.0383 25.2036ZM26.0383 19.5726C24.2393 19.5726 23.1263 20.8086 23.1263 22.8416C23.1263 24.8696 24.2393 26.1116 26.0383 26.1116C27.8373 26.1116 28.9503 24.8696 28.9503 22.8416C28.9503 20.8086 27.8373 19.5726 26.0383 19.5726ZM8.9673 25.9996H9.9753V19.6836H8.9673V25.9996ZM8.7683 17.7616C8.7683 17.3746 9.0853 17.0586 9.4713 17.0586C9.8583 17.0586 10.1743 17.3746 10.1743 17.7616C10.1743 18.1486 9.8583 18.4646 9.4713 18.4646C9.0853 18.4646 8.7683 18.1486 8.7683 17.7616ZM2.6313 22.6836L3.9553 18.9106H4.0483L5.3733 22.6836H2.6313ZM4.5233 17.5446H3.4803L0.363297 25.9996H1.4703L2.3203 23.5796H5.6833L6.5333 25.9996H7.6403L4.5233 17.5446ZM19.3913 22.0446H17.5273V18.4826H19.3913C20.6153 18.4826 21.2893 19.1216 21.2893 20.2816C21.2893 21.4006 20.5923 22.0446 19.3913 22.0446ZM19.6663 17.5446H16.4733V25.9996H17.5273V22.9826H19.6543C21.2423 22.9826 22.3733 21.8636 22.3733 20.2816C22.3733 18.6696 21.2663 17.5446 19.6663 17.5446Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6259}>
+              <div className={styles.Container_372_2416}>
+                <div className={styles.Container_372_2417}>
+                  <div className={styles.Component_4_372_2418}><svg width="66" height="44" viewBox="0 0 66 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.54549 26V18.4941H1.82089V17.5449H8.32479V18.4941H5.60019V26H4.54549ZM12.2769 26L9.15969 17.5449H10.2671L12.7515 24.6347H12.8453L15.3297 17.5449H16.4371L13.3199 26H12.2769ZM26.2579 25.1562C25.5372 25.789 24.547 26.1582 23.5216 26.1582C21.84 26.1582 20.6622 25.1621 20.6622 23.7441C20.6622 22.7421 21.2071 21.9804 22.338 21.3828C22.4142 21.3476 22.5724 21.2656 22.6661 21.2187C21.8868 20.3984 21.6056 19.8535 21.6056 19.2382C21.6056 18.1542 22.5255 17.3456 23.7618 17.3456C25.0098 17.3456 25.918 18.1425 25.918 19.2499C25.918 20.1171 25.3965 20.7499 24.0899 21.4354L26.2051 23.7088C26.4688 23.1815 26.6035 22.49 26.6035 21.4354V21.2889H27.5879V21.4412C27.5879 22.7537 27.3535 23.7088 26.8906 24.4236L28.3614 26H27.0372L26.2579 25.1562ZM21.7169 23.6738C21.7169 24.623 22.4845 25.2676 23.6153 25.2676C24.3829 25.2676 25.1739 24.9629 25.6368 24.4766L23.2462 21.8633C23.1817 21.8867 23.0294 21.9629 22.9474 22.0039C22.1329 22.4258 21.7169 23.0117 21.7169 23.6738ZM24.9278 19.2852C24.9278 18.629 24.4532 18.1836 23.7676 18.1836C23.0938 18.1836 22.6133 18.6406 22.6133 19.2969C22.6133 19.7657 22.8535 20.1758 23.5215 20.8379C24.5528 20.3105 24.9278 19.8887 24.9278 19.2852ZM38.4454 26V22.1504H33.8048V26H32.7501V17.5449H33.8048V21.2011H38.4454V17.5449H39.5001V26H38.4454ZM41.0909 22.8418C41.0909 20.8086 42.2042 19.5723 44.003 19.5723C45.8018 19.5723 46.9151 20.8086 46.9151 22.8418C46.9151 24.8691 45.8018 26.1113 44.003 26.1113C42.2042 26.1113 41.0909 24.8691 41.0909 22.8418ZM45.8721 22.8418C45.8721 21.3418 45.1983 20.4805 44.003 20.4805C42.8077 20.4805 42.1339 21.3418 42.1339 22.8418C42.1339 24.3359 42.8077 25.2031 44.003 25.2031C45.1983 25.2031 45.8721 24.3359 45.8721 22.8418ZM48.3775 19.6836H49.3384V20.6797H49.4322C49.7193 19.9766 50.3521 19.5723 51.1959 19.5723C52.0514 19.5723 52.649 20.0235 52.942 20.6797H53.0358C53.3756 20.0117 54.0963 19.5723 54.9694 19.5723C56.2585 19.5723 56.9792 20.3106 56.9792 21.6348V26H55.9714V21.8691C55.9714 20.9375 55.5319 20.4804 54.6413 20.4804C53.7624 20.4804 53.1765 21.1366 53.1765 21.9394V26H52.1687V21.7109C52.1687 20.9609 51.6472 20.4804 50.8503 20.4804C50.0241 20.4804 49.3855 21.1952 49.3855 22.0859V26H48.3777L48.3775 19.6836ZM63.8902 24.3652C63.5972 25.4433 62.6129 26.1113 61.23 26.1113C59.478 26.1113 58.3823 24.8457 58.3823 22.8476C58.3823 20.8613 59.4956 19.5722 61.23 19.5722C62.9351 19.5722 63.9722 20.7851 63.9722 22.748V23.1347H59.4312V23.1816C59.4839 24.4296 60.1812 25.2207 61.2535 25.2207C62.068 25.2207 62.6187 24.9219 62.8824 24.3652H63.8902ZM59.4312 22.3203H62.9117C62.8883 21.2012 62.2203 20.4629 61.2183 20.4629C60.2105 20.4629 59.5074 21.2012 59.4312 22.3203Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6265}>
+              <div className={styles.Container_372_2426}>
+                <div className={styles.Container_372_2427}>
+                  <div className={styles.Component_4_372_2428}><svg width="78" height="44" viewBox="0 0 78 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.309998 17.4863H5.5483V18.4355H1.3647V21.1484H5.3315V22.0859H1.3647V24.9921H5.5483V25.9413H0.309998V17.4863ZM7.2094 19.625H8.2289V20.5742H8.3227C8.6391 19.9062 9.2309 19.5137 10.1625 19.5137C11.5805 19.5137 12.3715 20.3516 12.3715 21.8516V25.9414H11.352V22.0976C11.352 20.9609 10.8832 20.416 9.8754 20.416C8.8676 20.416 8.2289 21.0957 8.2289 22.2031V25.9414H7.2094V19.625ZM14.4897 24.3008V20.4688H13.4936V19.625H14.4897V17.9902H15.5444V19.625H16.9272V20.4688H15.5444V24.043C15.5444 24.7871 15.8022 25.086 16.4585 25.086C16.6401 25.086 16.7397 25.0801 16.9273 25.0626V25.9298C16.7281 25.965 16.5347 25.9884 16.3355 25.9884C15.0346 25.9883 14.4897 25.5078 14.4897 24.3008ZM17.9262 22.8066V22.8007C17.9262 20.8495 19.0395 19.5136 20.7563 19.5136C22.4731 19.5136 23.5161 20.7909 23.5161 22.6777V23.0761H18.9692C18.9985 24.3827 19.7192 25.1445 20.8442 25.1445C21.6997 25.1445 22.227 24.7402 22.3969 24.3593L22.4203 24.3066H23.4398L23.4281 24.3535C23.2113 25.209 22.309 26.0527 20.8207 26.0527C19.0161 26.0527 17.9262 24.7871 17.9262 22.8066ZM18.9868 22.2617H22.479C22.3735 21.0137 21.6821 20.4219 20.7505 20.4219C19.8129 20.4219 19.0981 21.0605 18.9868 22.2617ZM24.978 19.625H25.9975V20.5625H26.0913C26.3315 19.9004 26.9233 19.5137 27.7788 19.5137C27.9722 19.5137 28.189 19.5371 28.2886 19.5547V20.5449C28.0777 20.5097 27.8843 20.4863 27.6616 20.4863C26.6889 20.4863 25.9975 21.1015 25.9975 22.0273V25.9414H24.978V19.625ZM29.9438 24.3008V20.4688H28.9477V19.625H29.9438V17.9902H30.9985V19.625H32.3813V20.4688H30.9985V24.043C30.9985 24.7871 31.2563 25.086 31.9126 25.086C32.0942 25.086 32.1938 25.0801 32.3814 25.0626V25.9298C32.1822 25.965 31.9888 25.9884 31.7896 25.9884C30.4887 25.9883 29.9438 25.5078 29.9438 24.3008ZM33.4096 24.1777V24.166C33.4096 23.041 34.2416 22.3906 35.7123 22.3027L37.5228 22.1914V21.6172C37.5228 20.8379 37.0482 20.416 36.1048 20.416C35.3489 20.416 34.8509 20.6972 34.6868 21.1894L34.6809 21.207H33.6614L33.6673 21.1718C33.8314 20.1816 34.7923 19.5136 36.14 19.5136C37.681 19.5136 38.5423 20.3046 38.5423 21.6171V25.9413H37.5228V25.0097H37.429C37.0306 25.6835 36.3685 26.0527 35.5188 26.0527C34.3178 26.0527 33.4096 25.3262 33.4096 24.1777ZM35.7299 25.168C36.767 25.168 37.5229 24.4883 37.5229 23.586V23.0118L35.8354 23.1173C34.8745 23.1759 34.4526 23.5157 34.4526 24.1427V24.1544C34.4526 24.793 34.9975 25.168 35.7299 25.168ZM40.1225 17.7031C40.1225 17.3164 40.4389 17 40.8256 17C41.2123 17 41.5287 17.3164 41.5287 17.7031C41.5287 18.0898 41.2123 18.4062 40.8256 18.4062C40.4389 18.4062 40.1225 18.0898 40.1225 17.7031ZM40.31 19.625H41.3295V25.9414H40.31V19.625ZM43.1313 19.625H44.1508V20.5742H44.2446C44.561 19.9062 45.1528 19.5137 46.0844 19.5137C47.5024 19.5137 48.2934 20.3516 48.2934 21.8516V25.9414H47.2739V22.0976C47.2739 20.9609 46.8051 20.416 45.7973 20.416C44.7895 20.416 44.1508 21.0957 44.1508 22.2031V25.9414H43.1313V19.625ZM50.0131 19.625H51.0326V20.5859H51.1264C51.4076 19.9062 52.0053 19.5136 52.8315 19.5136C53.687 19.5136 54.2846 19.9648 54.5776 20.621H54.6714C55.0112 19.953 55.7319 19.5136 56.605 19.5136C57.8941 19.5136 58.6148 20.2519 58.6148 21.5761V25.9413H57.5953V21.8104C57.5953 20.8788 57.1676 20.4159 56.2769 20.4159C55.398 20.4159 54.8179 21.078 54.8179 21.8807V25.9412H53.7984V21.6521C53.7984 20.9021 53.2828 20.4158 52.4859 20.4158C51.6597 20.4158 51.0328 21.1365 51.0328 22.0271V25.9412H50.0133L50.0131 19.625ZM60.018 22.8066V22.8007C60.018 20.8495 61.1313 19.5136 62.8481 19.5136C64.5649 19.5136 65.6079 20.7909 65.6079 22.6777V23.0761H61.061C61.0903 24.3827 61.811 25.1445 62.936 25.1445C63.7915 25.1445 64.3188 24.7402 64.4887 24.3593L64.5121 24.3066H65.5316L65.52 24.3535C65.3032 25.209 64.4009 26.0527 62.9126 26.0527C61.1079 26.0527 60.018 24.7871 60.018 22.8066ZM61.0786 22.2617H64.5708C64.4653 21.0137 63.7739 20.4219 62.8423 20.4219C61.9047 20.4219 61.1899 21.0605 61.0786 22.2617ZM67.0698 19.625H68.0893V20.5742H68.1831C68.4995 19.9062 69.0913 19.5137 70.0229 19.5137C71.4409 19.5137 72.2319 20.3516 72.2319 21.8516V25.9414H71.2124V22.0976C71.2124 20.9609 70.7436 20.416 69.7358 20.416C68.728 20.416 68.0893 21.0957 68.0893 22.2031V25.9414H67.0698V19.625ZM74.35 24.3008V20.4688H73.3539V19.625H74.35V17.9902H75.4047V19.625H76.7875V20.4688H75.4047V24.043C75.4047 24.7871 75.6625 25.086 76.3188 25.086C76.5004 25.086 76.6 25.0801 76.7876 25.0626V25.9298C76.5884 25.965 76.395 25.9884 76.1958 25.9884C74.895 25.9883 74.35 25.5078 74.35 24.3008Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6271}>
+              <div className={styles.Container_372_2436}>
+                <div className={styles.Container_372_2437}>
+                  <div className={styles.Component_4_372_2438}><svg width="68" height="44" viewBox="0 0 68 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.12035 23.5715H2.75705L1.90745 25.9914H0.800049L3.91725 17.5363H4.96025L8.07745 25.9914H6.96995L6.12035 23.5715ZM3.06765 22.675H5.80985L4.48565 18.9016H4.39185L3.06765 22.675ZM13.1662 21.6086C13.0021 20.9816 12.4455 20.4719 11.5373 20.4719C10.4006 20.4719 9.68575 21.3801 9.68575 22.8098C9.68575 24.2688 10.4123 25.1946 11.5373 25.1946C12.3869 25.1946 12.9787 24.802 13.1662 24.0872H14.1857C14.0041 25.2474 13.0607 26.1028 11.5431 26.1028C9.77365 26.1028 8.64275 24.8196 8.64275 22.8098C8.64275 20.841 9.76775 19.5637 11.5372 19.5637C13.0724 19.5637 14.0099 20.4836 14.1856 21.6086H13.1662ZM19.7609 21.6086C19.5968 20.9816 19.0402 20.4719 18.132 20.4719C16.9953 20.4719 16.2804 21.3801 16.2804 22.8098C16.2804 24.2688 17.007 25.1946 18.132 25.1946C18.9816 25.1946 19.5734 24.802 19.7609 24.0872H20.7804C20.5988 25.2474 19.6554 26.1028 18.1378 26.1028C16.3683 26.1028 15.2374 24.8196 15.2374 22.8098C15.2374 20.841 16.3624 19.5637 18.1319 19.5637C19.6671 19.5637 20.6046 20.4836 20.7803 21.6086H19.7609ZM27.3405 24.3566C27.0475 25.4347 26.0632 26.1027 24.6803 26.1027C22.9283 26.1027 21.8326 24.8371 21.8326 22.839C21.8326 20.8527 22.9459 19.5636 24.6803 19.5636C26.3854 19.5636 27.4225 20.7765 27.4225 22.7394V23.1261H22.8815V23.173C22.9342 24.421 23.6315 25.2121 24.7038 25.2121C25.5183 25.2121 26.069 24.9133 26.3327 24.3566H27.3405ZM22.8815 22.3117H26.362C26.3386 21.1926 25.6706 20.4543 24.6686 20.4543C23.6608 20.4543 22.9577 21.1926 22.8815 22.3117ZM31.0935 19.5637C32.4177 19.5637 33.3377 20.2199 33.4725 21.2571H32.4763C32.3415 20.7532 31.8493 20.4192 31.0876 20.4192C30.3376 20.4192 29.7517 20.8001 29.7517 21.3626C29.7517 21.7962 30.1033 22.0657 30.8474 22.2474L31.8201 22.4818C33.0096 22.7689 33.5838 23.2845 33.5838 24.1927C33.5838 25.3236 32.4881 26.1029 31.0526 26.1029C29.6464 26.1029 28.6796 25.4291 28.5682 24.3802H29.6053C29.7752 24.9134 30.2791 25.2532 31.0877 25.2532C31.9373 25.2532 32.5467 24.8489 32.5467 24.2688C32.5467 23.8352 32.2186 23.5422 31.5447 23.3782L30.4607 23.1145C29.2771 22.8274 28.738 22.3176 28.738 21.4036C28.738 20.3547 29.7517 19.5637 31.0935 19.5637ZM37.1374 19.5637C38.4616 19.5637 39.3815 20.2199 39.5163 21.2571H38.5202C38.3854 20.7532 37.8932 20.4192 37.1315 20.4192C36.3815 20.4192 35.7957 20.8001 35.7957 21.3626C35.7957 21.7962 36.1472 22.0657 36.8913 22.2474L37.864 22.4818C39.0535 22.7689 39.6278 23.2845 39.6278 24.1927C39.6278 25.3236 38.5321 26.1029 37.0965 26.1029C35.6903 26.1029 34.7235 25.4291 34.6121 24.3802H35.6493C35.8192 24.9134 36.323 25.2532 37.1316 25.2532C37.9812 25.2532 38.5906 24.8489 38.5906 24.2688C38.5906 23.8352 38.2625 23.5422 37.5886 23.3782L36.5047 23.1145C35.3211 22.8274 34.7819 22.3176 34.7819 21.4036C34.7819 20.3547 35.7956 19.5637 37.1374 19.5637ZM40.7731 22.8332C40.7731 20.8 41.8864 19.5637 43.6852 19.5637C45.484 19.5637 46.5973 20.8 46.5973 22.8332C46.5973 24.8605 45.484 26.1027 43.6852 26.1027C41.8864 26.1027 40.7731 24.8605 40.7731 22.8332ZM45.5544 22.8332C45.5544 21.3332 44.8806 20.4719 43.6853 20.4719C42.49 20.4719 41.8162 21.3332 41.8162 22.8332C41.8162 24.3273 42.49 25.1945 43.6853 25.1945C44.8806 25.1945 45.5544 24.3273 45.5544 22.8332ZM48.0598 19.675H49.0207V20.6125H49.1145C49.302 19.9973 50.0287 19.5637 50.8666 19.5637C51.0307 19.5637 51.2415 19.5754 51.3704 19.593V20.6008C51.2884 20.5774 50.9251 20.5422 50.7259 20.5422C49.765 20.5422 49.0677 21.1867 49.0677 22.0774V25.9915H48.0599L48.0598 19.675ZM52.3342 17.7531C52.3342 17.3664 52.6506 17.05 53.0373 17.05C53.424 17.05 53.7404 17.3664 53.7404 17.7531C53.7404 18.1398 53.424 18.4562 53.0373 18.4562C52.6506 18.4562 52.3342 18.1398 52.3342 17.7531ZM52.5334 19.675H53.5412V25.9914H52.5334V19.675ZM60.5345 24.3566C60.2415 25.4347 59.2571 26.1027 57.8742 26.1027C56.1222 26.1027 55.0266 24.8371 55.0266 22.839C55.0266 20.8527 56.1398 19.5636 57.8742 19.5636C59.5793 19.5636 60.6164 20.7765 60.6164 22.7394V23.1261H56.0754V23.173C56.1281 24.421 56.8254 25.2121 57.8977 25.2121C58.7122 25.2121 59.2629 24.9133 59.5266 24.3566H60.5345ZM56.0754 22.3117H59.556C59.5326 21.1926 58.8645 20.4543 57.8625 20.4543C56.8547 20.4543 56.1516 21.1926 56.0754 22.3117ZM64.2873 19.5637C65.6115 19.5637 66.5315 20.2199 66.6663 21.2571H65.6702C65.5354 20.7532 65.0431 20.4192 64.2814 20.4192C63.5314 20.4192 62.9455 20.8001 62.9455 21.3626C62.9455 21.7962 63.2971 22.0657 64.0412 22.2474L65.014 22.4818C66.2035 22.7689 66.7776 23.2845 66.7776 24.1927C66.7776 25.3236 65.6819 26.1029 64.2464 26.1029C62.8402 26.1029 61.8734 25.4291 61.762 24.3802H62.7991C62.969 24.9134 63.4729 25.2532 64.2815 25.2532C65.1311 25.2532 65.7406 24.8489 65.7406 24.2688C65.7406 23.8352 65.4125 23.5422 64.7386 23.3782L63.6545 23.1145C62.4709 22.8274 61.9319 22.3176 61.9319 21.4036C61.9319 20.3547 62.9455 19.5637 64.2873 19.5637Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Component_9_372_6277}>
+              <div className={styles.Container_372_2446}>
+                <div className={styles.Container_372_2447}>
+                  <div className={styles.Component_4_372_2448}><svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M42.7206 18.0337V19.6687H44.1266V20.5127H42.7206V24.0867C42.7206 24.8307 43.0016 25.1467 43.6576 25.1467C43.8396 25.1467 43.9396 25.1407 44.1266 25.1237V25.9727C43.9276 26.0087 43.7346 26.0317 43.5346 26.0317C42.2346 26.0317 41.7126 25.5517 41.7126 24.3447V20.5127H40.6936V19.6687H41.7126V18.0337H42.7206ZM36.5896 19.6687H37.5506V20.6057H37.6436C37.8316 19.9907 38.5576 19.5567 39.3956 19.5567C39.5596 19.5567 39.7706 19.5687 39.8996 19.5867V20.5947C39.8176 20.5707 39.4546 20.5357 39.2556 20.5357C38.2946 20.5357 37.5966 21.1797 37.5966 22.0707V25.9847H36.5896V19.6687ZM34.1266 22.8267C34.1266 21.3267 33.4526 20.4657 32.2576 20.4657C31.0626 20.4657 30.3886 21.3267 30.3886 22.8267C30.3886 24.3207 31.0626 25.1877 32.2576 25.1877C33.4526 25.1877 34.1266 24.3207 34.1266 22.8267ZM29.3456 22.8267C29.3456 20.7937 30.4586 19.5567 32.2576 19.5567C34.0566 19.5567 35.1696 20.7937 35.1696 22.8267C35.1696 24.8537 34.0566 26.0967 32.2576 26.0967C30.4586 26.0967 29.3456 24.8537 29.3456 22.8267ZM27.2376 22.8267C27.2376 21.3497 26.5456 20.4657 25.3916 20.4657C24.2486 20.4657 23.5286 21.3737 23.5286 22.8267C23.5286 24.2737 24.2486 25.1877 25.3856 25.1877C26.5456 25.1877 27.2376 24.3037 27.2376 22.8267ZM28.2806 22.8267C28.2806 24.8017 27.2316 26.0967 25.6256 26.0967C24.7236 26.0967 23.9966 25.7037 23.6516 25.0357H23.5576V28.0947H22.5496V19.6687H23.5106V20.7227H23.6046C24.0086 19.9967 24.7646 19.5567 25.6256 19.5567C27.2376 19.5567 28.2806 20.8407 28.2806 22.8267ZM20.2326 22.8267C20.2326 21.3497 19.5416 20.4657 18.3876 20.4657C17.2446 20.4657 16.5236 21.3737 16.5236 22.8267C16.5236 24.2737 17.2446 25.1877 18.3816 25.1877C19.5416 25.1877 20.2326 24.3037 20.2326 22.8267ZM21.2756 22.8267C21.2756 24.8017 20.2266 26.0967 18.6216 26.0967C17.7196 26.0967 16.9926 25.7037 16.6466 25.0357H16.5536V28.0947H15.5456V19.6687H16.5066V20.7227H16.5996C17.0046 19.9967 17.7606 19.5567 18.6216 19.5567C20.2326 19.5567 21.2756 20.8407 21.2756 22.8267ZM13.6306 25.9847H12.6696V24.9947H12.5756C12.2596 25.6977 11.5856 26.0967 10.6186 26.0967C9.2006 26.0967 8.4626 25.2527 8.4626 23.7587V19.6687H9.4706V23.5127C9.4706 24.6487 9.8926 25.1767 10.9006 25.1767C12.0136 25.1767 12.6226 24.5137 12.6226 23.4067V19.6687H13.6306V25.9847ZM1.9406 23.7757C2.0696 24.6607 2.9126 25.2227 4.1146 25.2227C5.2506 25.2227 6.0886 24.6077 6.0886 23.7697C6.0886 23.0497 5.5616 22.5927 4.3956 22.2997L3.3116 22.0177C1.7826 21.6317 1.1196 20.9397 1.1196 19.7387C1.1196 18.3037 2.3216 17.3307 4.1086 17.3307C5.7426 17.3307 6.9616 18.3037 7.0496 19.6687H5.9896C5.8426 18.8017 5.1276 18.2857 4.0736 18.2857C2.9486 18.2857 2.2036 18.8477 2.2036 19.7037C2.2036 20.3657 2.6666 20.7467 3.8326 21.0457L4.7176 21.2797C6.4696 21.7197 7.1726 22.3987 7.1726 23.6407C7.1726 25.1937 5.9486 26.1837 4.0146 26.1837C2.2216 26.1837 0.985596 25.2347 0.873596 23.7757H1.9406Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Item_372_6283}>
+              <div className={styles.Container_372_6284}>
+                <div className={styles.Component_10_372_6285}>
+                  <div className={styles.Container_372_3335}>
+                    <div className={styles.Component_4_372_3336}><svg width="15" height="44" viewBox="0 0 15 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.2536 16.0283H11.2331C11.1237 15.2173 10.7273 14.4723 10.1158 13.9284C9.50439 13.3845 8.71829 13.0777 7.90005 13.0635C7.08181 13.0777 6.29572 13.3845 5.68426 13.9284C5.07281 14.4723 4.67646 15.2173 4.56705 16.0283H3.54705C2.98584 16.0287 2.44771 16.2517 2.0508 16.6485C1.65389 17.0452 1.43064 17.5833 1.43005 18.1445V25.86C1.43056 26.4212 1.65366 26.9592 2.0504 27.356C2.44714 27.7528 2.98511 27.9761 3.54625 27.9767H12.2533C12.8145 27.9762 13.3526 27.7531 13.7495 27.3562C14.1464 26.9594 14.3696 26.4213 14.3701 25.86V18.1445C14.3695 17.5834 14.1463 17.0454 13.7495 16.6487C13.3527 16.2519 12.8147 16.0288 12.2536 16.0283ZM7.90005 14.1631C8.42746 14.1746 8.93517 14.3657 9.33924 14.7048C9.7433 15.044 10.0195 15.5109 10.1223 16.0283H5.67785C5.78058 15.5109 6.05681 15.044 6.46087 14.7048C6.86494 14.3657 7.37264 14.1746 7.90005 14.1631ZM13.2701 25.86C13.2698 26.1296 13.1626 26.388 12.972 26.5787C12.7814 26.7694 12.523 26.8767 12.2535 26.8771H3.54655C3.277 26.8767 3.01862 26.7693 2.82806 26.5787C2.63751 26.388 2.53034 26.1296 2.53005 25.86V18.1445C2.53037 17.875 2.63758 17.6166 2.82816 17.426C3.01874 17.2354 3.27713 17.1282 3.54665 17.1279H12.2537C12.5231 17.1283 12.7815 17.2355 12.972 17.4261C13.1626 17.6167 13.2697 17.875 13.2701 18.1445V25.86Z" fill="black" fillOpacity="0.8" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Item_372_6290}>
+              <div className={styles.Component_10_372_6291}>
+                <div className={styles.Container_372_3343}>
+                  <div className={styles.Component_4_372_3344}><svg width="14" height="44" viewBox="0 0 14 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.0729 17.6825C12.552 18.0014 12.1206 18.4473 11.8189 18.9783C11.5173 19.5094 11.3553 20.1083 11.3481 20.719C11.3502 21.4064 11.5538 22.078 11.9338 22.6508C12.3138 23.2235 12.8535 23.6722 13.486 23.9413C13.2366 24.7459 12.8676 25.5084 12.3912 26.2031C11.7096 27.1843 10.9969 28.1654 9.91251 28.1654C8.82811 28.1654 8.54921 27.5354 7.29951 27.5354C6.08081 27.5354 5.64701 28.1861 4.65551 28.1861C3.66401 28.1861 2.97211 27.2772 2.17681 26.1618C1.12628 24.5992 0.548917 22.7667 0.514008 20.8842C0.514008 17.7858 2.52801 16.1437 4.51091 16.1437C5.56441 16.1437 6.44231 16.8356 7.10331 16.8356C7.73331 16.8356 8.71451 16.1023 9.91251 16.1023C10.5285 16.0864 11.1389 16.2222 11.69 16.4978C12.2411 16.7733 12.716 17.1802 13.0729 17.6825ZM9.34451 14.7907C9.87261 14.1695 10.1716 13.3858 10.1914 12.5707C10.1923 12.4632 10.1819 12.356 10.1604 12.2507C9.25327 12.3393 8.41441 12.7717 7.81591 13.4591C7.28271 14.0556 6.97251 14.8183 6.93801 15.6176C6.93841 15.7148 6.9488 15.8117 6.96901 15.9068C7.04052 15.9203 7.11313 15.9272 7.18591 15.9275C7.60398 15.8942 8.01092 15.7763 8.382 15.5809C8.75309 15.3855 9.08055 15.1166 9.34451 14.7907Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.Item_372_6296}>
+              <div className={styles.Component_10_372_6297}>
+                <div className={styles.Container_372_3351}>
+                  <div className={styles.Component_4_372_3352}><svg width="16" height="44" viewBox="0 0 16 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.048 27.202L11.178 23.332C11.879 22.403 12.3 21.251 12.3 20C12.3 16.94 9.81101 14.45 6.75001 14.45C3.69001 14.45 1.20001 16.94 1.20001 20C1.20001 23.061 3.69001 25.55 6.75001 25.55C8.00101 25.55 9.15301 25.129 10.082 24.428L13.952 28.298C14.103 28.449 14.302 28.526 14.5 28.526C14.698 28.526 14.896 28.45 15.048 28.298C15.351 27.995 15.351 27.505 15.048 27.202ZM2.30001 20C2.30001 17.546 4.29701 15.55 6.75001 15.55C9.20401 15.55 11.2 17.547 11.2 20C11.2 22.453 9.20401 24.45 6.75001 24.45C4.29601 24.45 2.30001 22.454 2.30001 20Z" fill="black" fillOpacity="0.8" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+```
+

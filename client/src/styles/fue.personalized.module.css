@@ -1,0 +1,334 @@
+.Section_436_7908 {
+  background: var(--color-grey-96, #f3f4f6);
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 64px 0;
+  display: flex;
+}
+.Container_436_7909 {
+  align-items: flex-start;
+  gap: var(--font-size-48, 48px);
+  flex-direction: column;
+  width: 382px;
+  padding: 0 20px;
+  display: flex;
+}
+.Container_436_7910 {
+  align-items: flex-start;
+  gap: var(--line-height-16, 16px);
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.Heading_2_436_7911 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.PersonalizedForYou_436_7912 {
+  color: var(--www-apple-com-black, var(--color-black-solid, #000));
+  text-align: center;
+  font-size: var(--font-size-30, 30px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-36, 36px);
+  display: inline-block;
+}
+.Container_436_7913 {
+  max-width: var(--width-768, 768px);
+  flex-direction: column;
+  align-items: center;
+  width: 342px;
+  display: flex;
+}
+.EveryHairRestorationPlanIsCustomizedToYourUniqueNeedsHairTypeAndAestheticGoals_436_7914 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-river-bed,
+    var(--color-azure-34, #4b5563)
+  );
+  text-align: center;
+  font-size: var(--font-size-18, 18px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-29_25, 29.25px);
+  display: inline-block;
+}
+.Container_436_7915 {
+  max-width: var(--width-1280, 1280px);
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--line-height-24, 24px);
+  flex-direction: column;
+  width: 342px;
+  display: flex;
+}
+.Component_9_436_7916 {
+  background: #fff;
+  border-radius: 24px;
+  height: 197.5px;
+  box-shadow: 0 1px 2px #0000000d;
+}
+.Background_420_13095 {
+  background: var(--color-grey-93, #dcfce7);
+  border-radius: 24px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  display: flex;
+}
+.Container_420_13096 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.generated__420_13097 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-2, Inter);
+  font-size: var(--line-height-24, 24px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-32, 32px);
+  display: inline-block;
+}
+.Heading_3_420_13098 {
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  display: flex;
+}
+.AiPoweredHairlineDesign_420_13099 {
+  color: var(--www-apple-com-black, var(--color-black-solid, #000));
+  text-align: center;
+  font-size: var(--font-size-18, 18px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-28, 28px);
+  display: inline-block;
+}
+.Container_420_13100 {
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  display: flex;
+}
+.AdvancedAlgorithmsCreateThePerfectHairlineForYourFacialStructure_420_13101 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-river-bed,
+    var(--color-azure-34, #4b5563)
+  );
+  text-align: center;
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-22_75, 22.75px);
+  display: inline-block;
+}
+.Component_9_436_7917 {
+  background: #fff;
+  border-radius: 24px;
+  height: 197.5px;
+  box-shadow: 0 1px 2px #0000000d;
+}
+.Background_420_13111 {
+  background: var(--color-grey-93, #dcfce7);
+  border-radius: 24px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  display: flex;
+}
+.Container_420_13112 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.generated__420_13113 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-2, Inter);
+  font-size: var(--line-height-24, 24px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-32, 32px);
+  display: inline-block;
+}
+.Heading_3_420_13114 {
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  display: flex;
+}
+.PersonalizedGraftPlanning_420_13115 {
+  color: var(--www-apple-com-black, var(--color-black-solid, #000));
+  text-align: center;
+  font-size: var(--font-size-18, 18px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-28, 28px);
+  display: inline-block;
+}
+.Container_420_13116 {
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  display: flex;
+}
+.PreciseCalculationsDetermineOptimalGraftPlacementAndDensity_420_13117 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-river-bed,
+    var(--color-azure-34, #4b5563)
+  );
+  text-align: center;
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-22_75, 22.75px);
+  display: inline-block;
+}
+.Component_9_436_7918 {
+  background: #fff;
+  border-radius: 24px;
+  height: 197.5px;
+  box-shadow: 0 1px 2px #0000000d;
+}
+.Background_420_13127 {
+  background: var(--color-grey-93, #dcfce7);
+  border-radius: 24px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  display: flex;
+}
+.Container_420_13128 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.generated__420_13129 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-2, Inter);
+  font-size: var(--line-height-24, 24px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-32, 32px);
+  display: inline-block;
+}
+.Heading_3_420_13130 {
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  display: flex;
+}
+.CustomRecoveryProtocol_420_13131 {
+  color: var(--www-apple-com-black, var(--color-black-solid, #000));
+  text-align: center;
+  font-size: var(--font-size-18, 18px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-28, 28px);
+  display: inline-block;
+}
+.Container_420_13132 {
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  display: flex;
+}
+.TailoredAftercarePlansEnsureOptimalHealingAndResults_420_13133 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-river-bed,
+    var(--color-azure-34, #4b5563)
+  );
+  text-align: center;
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-22_75, 22.75px);
+  display: inline-block;
+}
+.Component_9_436_7919 {
+  background: #fff;
+  border-radius: 24px;
+  height: 197.5px;
+  box-shadow: 0 1px 2px #0000000d;
+}
+.Background_420_13143 {
+  background: var(--color-grey-93, #dcfce7);
+  border-radius: 24px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  display: flex;
+}
+.Container_420_13144 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.generated__420_13145 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-black-pearl,
+    var(--color-azure-5, #020817)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-2, Inter);
+  font-size: var(--line-height-24, 24px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-32, 32px);
+  display: inline-block;
+}
+.Heading_3_420_13146 {
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  display: flex;
+}
+.OngoingSupportPlan_420_13147 {
+  color: var(--www-apple-com-black, var(--color-black-solid, #000));
+  text-align: center;
+  font-size: var(--font-size-18, 18px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-28, 28px);
+  display: inline-block;
+}
+.Container_420_13148 {
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  display: flex;
+}
+.DedicatedSupportTeamGuidesYouThroughEveryStep_420_13149 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-river-bed,
+    var(--color-azure-34, #4b5563)
+  );
+  text-align: center;
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-22_75, 22.75px);
+  display: inline-block;
+}

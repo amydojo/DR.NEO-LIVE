@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:0,undefined;0,500&display=swap");
+
+.Frame_2609259_192_166 {
+  flex-direction: column;
+  align-items: center;
+  /* Changed to center for better mobile alignment */
+  gap: 24px;
+  /* Reduced spacing */
+  display: flex;
+  width: 100%;
+  padding: 0px 16px 20px;
+  /* Adjusted padding, especially bottom */
+}
+
+.Frame_2609265_192_167 {
+  flex-direction: column;
+  align-items: center;
+  /* Changed to center for better mobile alignment */
+  gap: 16px;
+  /* Increased from 11px for better spacing */
+  display: flex;
+  width: 100%;
+}
+
+.Container_192_168 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 3px;
+  display: flex;
+}
+
+.tm {
+  /* re-declare the gradient */
+  background: linear-gradient(90deg, #EDB930 0%, #c8b68f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* sizing & positioning */
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1;
+  padding: 5px
+}
+
+
+
+.HairHeroes_192_169 {
+  text-align: center;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: 100%;
+  font-size: 3.75rem;
+  padding-top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  display: inline-block;
+  letter-spacing: -1.6px;
+  position: relative;
+}
+
+
+
+/* .HairHeroes_192_169::after {
+  content: "®";
+  position: absolute;
+  top: 4px;
+  right: -12px;
+  font-size: 16px;
+  background: linear-gradient(90deg, #625046 0%, #c8b68f 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+} */
+
+.Container_192_170 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+  max-width: 334px;
+  display: flex;
+}
+
+.StoriesPhotosOfRenewedConfidenceFullerHairAndPleasure_192_171 {
+  color: #EDB930;
+  /* Adjusted to match #625046c9 */
+  text-align: center;
+  font-family: 'Test Söhne', 'SF Pro Display', sans-serif;
+  /* Added Test Söhne as primary */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  /* Adjusted from 500 to match other sections */
+  /* Changed to match other sections */
+  display: inline-block;
+  width: 100%;
+}
+
+.LearnMore_192_172 {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.Button_192_173 {
+  background: #1e1e1e;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 41px;
+  padding: 14px 16px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.Button_192_173:hover {
+  background: #2a2a2a;
+}
+
+.Container_192_174 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.LearnMoreAboutSuccessStories_192_175 {
+  color: #fff;
+  text-align: center;
+  /* Added Test Söhne as primary */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  display: inline-block;
+}
+
+.Svg_192_176 {
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 520px) {
+  .HairHeroes_192_169 {
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 100%;
+    min-width: 334px;
+    font-family: 'Test Söhne', 'Inter', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    display: inline-block;
+    letter-spacing: -1.6px;
+    position: relative;
+  }
+
+  .Container_192_168 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 334px;
+    padding-bottom: 3px;
+    display: flex;
+  }
+}

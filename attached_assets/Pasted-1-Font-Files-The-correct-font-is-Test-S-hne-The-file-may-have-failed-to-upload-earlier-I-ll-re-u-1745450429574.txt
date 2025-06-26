@@ -1,0 +1,53 @@
+1. Font Files
+The correct font is Test Söhne. The file may have failed to upload earlier — I’ll re-upload the full WOFF2 and TTF versions. Please use this font for all headings and body copy unless otherwise noted.
+
+2. Hero Background Image
+The high-res mobile hero background image has been uploaded — it should be used behind the headline “SoCal Advanced Hair Restoration” with a dark overlay (bg-black/50) for readability. Text must appear over the image, not below or separated.
+
+3. Complete Text Content
+You can now use the full and accurate copy for every section, extracted from my design. Here’s a recap of key content:
+
+✅ Hero Section
+
+Headline: SoCal Advanced Hair Restoration
+Subheadline: Natural Results | Fuller Hairlines | Confident Patients
+Body Text: The medical standard resulting in high-survivability hair transplants.
+CTAs: Book a Consultation, Learn More
+✅ Each treatment section (e.g., FUE Hair Transplant, Microneedling, etc.) has real copy + yellow CTA links. Refer to our previous extracted content.
+
+✅ Hair Heroes® Carousel
+
+Use the card details from the uploaded image:
+
+Ronald Foote (Palm Desert, 53)
+Alex Colby (Newport Beach, 23) — includes “Growth Factors” badge
+Harry Hairline (Baldwin Park, 23)
+✅ The Neo Difference
+
+Card grid section with four panels, including:
+
+Full background-image card with “Developed & Performed in the U.S.”
+Three NeoGraft® expert cards with titles like “Hairlines Built, Not Stamped” and “No Flights. No Risks. No Regrets.”
+You can find all exact text and layout context in the uploaded visuals and earlier breakdown.
+
+4. Form Submission Details
+For now, set the contact form to submit to a dummy endpoint or handle locally (e.g. console log). No live backend or email integration is needed at this time.
+
+5. Additional Pages
+The only required page for this implementation is the homepage. You may see placeholder links to “About” or “Services,” but these do not need to be built yet. Focus exclusively on the homepage sections.
+
+6. Logo Variants
+Use the white DR. NEO logo that’s already provided. If the layout requires additional variants (e.g. for light backgrounds), I’ll upload those upon request. For now, white works for all sections.
+
+7. Interactive Elements & Animations
+Include light UI interactions to enhance polish:
+
+Hover effects on buttons (e.g. slight background color change or shadow)
+Fade-in animations on scroll for each major section
+Smooth scroll on anchor link buttons (e.g. hero CTA scrolls to form)
+Avoid complex animations or transitions — keep it smooth, minimal, and modern.
+
+Final Note:
+All updated content, image references, and design context have now been provided or clarified. Please use the Figma-style layout and image assets for responsive, pixel-accurate implementation with Tailwind and React. Let me know if you need specific class name guidance or component structure suggestions.
+
+Ready to proceed with full build.

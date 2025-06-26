@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Neo Hair - Mockup</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            color: #2F2F2F;
+            background-color: #FFFFFF;
+        }
+        a {
+            text-decoration: none;
+            color: #00B49E;
+        }
+        /* Nav */
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 32px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+        .nav-logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav-menu {
+            display: flex;
+            gap: 32px;
+        }
+        .nav-menu a:hover {
+            border-bottom: 2px solid #00B49E;
+            padding-bottom: 2px;
+        }
+        /* Hero */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding-top: 64px;
+        }
+        .hero img {
+            width: 40vw;
+            max-width: 400px;
+            opacity: 0;
+            transform: scale(0.98);
+            animation: fadeInScale 1s forwards;
+        }
+        @keyframes fadeInScale {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin: 24px 0 16px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #4A4A4A;
+            line-height: 28px;
+            max-width: 600px;
+            margin-bottom: 32px;
+        }
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+        }
+        .btn-primary {
+            background-color: #00B49E;
+            color: #FFFFFF;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #00907F;
+        }
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #00B49E;
+            color: #00B49E;
+            padding: 12px 26px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+        }
+        .btn-secondary:hover {
+            background-color: #00B49E;
+            color: #FFFFFF;
+        }
+        /* Section Titles */
+        .section-title {
+            text-align: center;
+            margin: 80px 0 40px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .section-subhead {
+            text-align: center;
+            font-size: 18px;
+            color: #4A4A4A;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+        /* Feature Cards */
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 80px;
+        }
+        .feature-card {
+            width: 296px;
+            height: 200px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 16px;
+            transition: box-shadow 0.2s ease;
+        }
+        .feature-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        .feature-icon {
+            width: 48px; 
+            height: 48px; 
+            margin-bottom: 16px;
+        }
+        .feature-title {
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #2F2F2F;
+            margin-bottom: 8px;
+        }
+        /* Why Dr. Neo Section */
+        .why-dr-neo {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 64px;
+            padding: 80px 32px;
+        }
+        .why-text {
+            max-width: 500px;
+        }
+        .why-text h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        .why-text p {
+            font-size: 18px;
+            color: #4A4A4A;
+            line-height: 28px;
+            margin-bottom: 24px;
+        }
+        .hero-hover-effect {
+            perspective: 800px;
+            width: 400px;
+        }
+        .hero-hover-effect img {
+            width: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .hero-hover-effect:hover img {
+            transform: rotateY(3deg);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .features, .why-dr-neo {
+                flex-direction: column;
+                gap: 24px;
+            }
+            .hero img {
+                width: 80vw;
+            }
+            .why-dr-neo {
+                padding: 40px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">Dr. Neo</div>
+        <div class="nav-menu">
+            <a href="#">Science</a>
+            <a href="#">Treatments</a>
+            <a href="#">Results</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="hair_follicle.png" alt="3D hair follicle in Petri dish – Dr. Neo’s therapy visual">
+        <h1>The Science of Hair Restoration, Reimagined.</h1>
+        <p>Experience our breakthrough exosome-powered therapy to restore hair at its root.</p>
+        <div class="cta-buttons">
+            <button class="btn-primary">Book a Consultation</button>
+            <button class="btn-secondary">View Pricing</button>
+        </div>
+    </section>
+
+    <!-- Our Science Section -->
+    <div class="section-title">Our Science</div>
+    <div class="section-subhead">Precision-Engineered Exosome Therapy</div>
+    <section class="features">
+        <div class="feature-card">
+            <div class="feature-icon">🔬</div>
+            <div class="feature-title">Clinically Proven</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🧬</div>
+            <div class="feature-title">Maximized Follicle Health</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⏱️</div>
+            <div class="feature-title">Rapid-Onset Growth</div>
+        </div>
+    </section>
+
+    <!-- Why Dr. Neo Section -->
+    <div class="section-title">Why Dr. Neo Hair?</div>
+    <section class="why-dr-neo">
+        <div class="why-text">
+            <h3>Cutting-Edge Exosomes</h3>
+            <p>Our proprietary protocol ensures exosomes are delivered directly to the dermal papilla for maximum uptake. Every step at our lab, from extraction to injection, is meticulously monitored to guarantee safety and efficacy.</p>
+            <button class="btn-primary">Learn More →</button>
+        </div>
+        <div class="hero-hover-effect">
+            <img src="hair_follicle.png" alt="3D hair follicle tilt effect">
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Environment Configuration File
+# This file contains the environment variables for the current build.
+# It is used for records and reference.
+
+# Add your environment variables below:
+# For example:
+# DATABASE_URL=postgresql://user:password@localhost:5432/mydatabase
+# API_KEY=your_api_key_here

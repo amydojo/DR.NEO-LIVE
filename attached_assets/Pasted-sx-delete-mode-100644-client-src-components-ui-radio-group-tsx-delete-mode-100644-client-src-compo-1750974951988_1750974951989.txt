@@ -1,0 +1,161 @@
+sx
+ delete mode 100644 client/src/components/ui/radio-group.tsx
+ delete mode 100644 client/src/components/ui/resizable.tsx
+ delete mode 100644 client/src/components/ui/scroll-area.tsx
+ delete mode 100644 client/src/components/ui/select.tsx
+ delete mode 100644 client/src/components/ui/separator.tsx
+ delete mode 100644 client/src/components/ui/sheet.tsx
+ delete mode 100644 client/src/components/ui/sidebar.tsx
+ delete mode 100644 client/src/components/ui/skeleton.tsx
+ delete mode 100644 client/src/components/ui/slider.tsx
+ delete mode 100644 client/src/components/ui/switch.tsx
+ delete mode 100644 client/src/components/ui/table.tsx
+ delete mode 100644 client/src/components/ui/tabs.tsx
+ delete mode 100644 client/src/components/ui/testimonial-card.tsx
+ delete mode 100644 client/src/components/ui/textarea.tsx
+ delete mode 100644 client/src/components/ui/toast.tsx
+ delete mode 100644 client/src/components/ui/toaster.tsx
+ delete mode 100644 client/src/components/ui/toggle-group.tsx
+ delete mode 100644 client/src/components/ui/toggle.tsx
+ delete mode 100644 client/src/components/ui/tooltip.tsx
+ delete mode 100644 client/src/components/ui/treatment-details.tsx
+ delete mode 100644 client/src/components/ultra-premium-hair-follicle.tsx
+ delete mode 100644 client/src/components/vip-membership-section.tsx
+ delete mode 100644 client/src/hooks/use-intersection-observer.tsx
+ delete mode 100644 client/src/hooks/use-mobile.tsx
+ delete mode 100644 client/src/hooks/use-toast.ts
+ delete mode 100644 client/src/index.css
+ delete mode 100644 client/src/lib/design-tokens.ts
+ delete mode 100644 client/src/lib/imageGeneration.ts
+ delete mode 100644 client/src/lib/mcpService.ts
+ delete mode 100644 client/src/lib/queryClient.ts
+ delete mode 100644 client/src/lib/theme-utils.ts
+ delete mode 100644 client/src/lib/utils.ts
+ delete mode 100644 client/src/main.tsx
+ delete mode 100644 client/src/pages/component-export.tsx
+ delete mode 100644 client/src/pages/fue.tsx
+ delete mode 100644 client/src/pages/home.tsx
+ delete mode 100644 client/src/pages/not-found.tsx
+ delete mode 100644 client/src/pages/treatments-new.tsx
+ delete mode 100644 client/src/pages/treatments-optimized.tsx
+ delete mode 100644 client/src/pages/treatments-premium.tsx
+ delete mode 100644 client/src/pages/treatments.tsx
+ delete mode 100644 client/src/pages/vip-membership.tsx
+ delete mode 100644 client/src/styles/Frame_17.module.css
+ delete mode 100644 client/src/styles/Frame_81.module.css
+ delete mode 100644 client/src/styles/Frame_82.module.css
+ delete mode 100644 client/src/styles/animations.css
+ delete mode 100644 client/src/styles/design-tokens.css
+ delete mode 100644 client/src/styles/fue-expert-consultations.module.css
+ delete mode 100644 client/src/styles/fue.all-devices.module.css
+ delete mode 100644 client/src/styles/fue.compare-our-plans.module.css
+ delete mode 100644 client/src/styles/fue.module.css
+ delete mode 100644 client/src/styles/fue.personalized.module.css
+ delete mode 100644 client/src/styles/hero-section.module.css
+ delete mode 100644 client/src/styles/neo-difference-section.module.css
+ delete mode 100644 client/src/styles/premium-animations.css
+ delete mode 100644 client/src/styles/testimonial-card.module.css
+ delete mode 100644 components.json
+ delete mode 100644 docs/design-system.md
+ delete mode 100644 drizzle.config.ts
+ delete mode 100644 generated-icon.png
+ delete mode 100644 package-lock.json
+ delete mode 100644 package.json
+ delete mode 100644 postcss.config.js
+ delete mode 100644 public/assets/ALEX COLBY.png
+ delete mode 100644 public/assets/DR. NEO V1 MOBILE CURREENT.png
+ delete mode 100644 public/assets/FOLLICULES.png
+ delete mode 100644 public/assets/HAIR LOSS AFTER PIC.png
+ delete mode 100644 public/assets/HAIR LOSS BEFORE PIC.png
+ delete mode 100644 public/assets/HAIR POKE.png
+ delete mode 100644 public/assets/HARRY HAIRLESS.png
+ delete mode 100644 public/assets/HERO IMAGE HAIR EXAM.png
+ delete mode 100644 public/assets/IMG_2813.png
+ delete mode 100644 public/assets/IMG_2814.png
+ delete mode 100644 public/assets/IMG_2815.png
+ delete mode 100644 public/assets/IMG_2816.png
+ delete mode 100644 public/assets/IMG_2817.png
+ delete mode 100644 public/assets/IMG_2821.png
+ delete mode 100644 public/assets/IMG_2823.png
+ delete mode 100644 public/assets/IMG_2824.png
+ delete mode 100644 public/assets/IMG_2826.png
+ delete mode 100644 public/assets/IMG_2897.png
+ delete mode 100644 public/assets/IMG_2898.png
+ delete mode 100644 public/assets/IMG_2899.png
+ delete mode 100644 public/assets/IMG_2900.png
+ delete mode 100644 public/assets/IMG_2901.png
+ delete mode 100644 public/assets/IMG_2902.png
+ delete mode 100644 public/assets/IMG_2906.png
+ delete mode 100644 public/assets/IMG_2908.png
+ delete mode 100644 public/assets/IMG_2910.png
+ delete mode 100644 public/assets/IMG_2912.png
+ delete mode 100644 public/assets/IMG_2913.png
+ delete mode 100644 public/assets/IMG_2914.png
+ delete mode 100644 public/assets/IMG_2915.png
+ delete mode 100644 public/assets/IMG_2916.png
+ delete mode 100644 public/assets/IMG_2917.png
+ delete mode 100644 public/assets/IRVINE SPECTRUM.png
+ delete mode 100644 public/assets/MICRONEEDLING PEN 3D MODEL 1.png
+ delete mode 100644 public/assets/MOIST FOLLICLE.png
+ delete mode 100644 public/assets/NEO LOGO WHITE.png
+ delete mode 100644 public/assets/Pecker Johnson VIP Card Bottom Trademarks 1.png
+ delete mode 100644 public/assets/RON FOOTE.png
+ delete mode 100644 public/assets/SNIPPY SNIP.png.jpeg
+ delete mode 100644 "public/assets/Screenshot 2025-04-23 at 5.29.52\342\200\257PM.png"
+ delete mode 100644 "public/assets/Screenshot 2025-04-23 at 7.24.21\342\200\257PM.png"
+ delete mode 100644 public/assets/hair-follicle-hero.png
+ delete mode 100644 public/assets/premium-follicle.png
+ delete mode 100644 public/assets/premium-hair-follicle-visualization.png
+ delete mode 100644 public/assets/stock/assessment.jpg
+ delete mode 100644 public/assets/stock/consultation.jpg
+ delete mode 100644 public/assets/stock/results.jpg
+ delete mode 100644 public/assets/stock/treatment.jpg
+ delete mode 100644 public/assets/test hair.png
+ delete mode 100644 public/hair-follicle-hero.png
+ delete mode 100644 replit.md
+ delete mode 100644 server/ai-image-generator.ts
+ delete mode 100644 server/avatar-generator.ts
+ delete mode 100644 server/index.ts
+ delete mode 100644 server/mcp-client.ts
+ delete mode 100644 server/routes.ts
+ delete mode 100644 server/service/emailService.d.ts
+ delete mode 100644 server/service/emailService.js
+ delete mode 100644 server/storage.ts
+ delete mode 100644 server/vite.ts
+ delete mode 100644 shared/schema.ts
+ delete mode 100644 tailwind.config.ts
+ delete mode 100644 tsconfig.json
+ delete mode 100644 vite.config.ts
+error: could not lock config file .git/config
+fatal: branch is renamed, but update of config-file failed
+error: remote origin already exists.
+To https://github.com/amydojo/DR.NEO-LIVE.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/amydojo/DR.NEO-LIVE.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+~/workspace$ https://github.com/amydojo/DR.NEO.git
+bash: https://github.com/amydojo/DR.NEO.git: No such file or directory
+~/workspace$ echo "# DR.NEO" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/amydojo/DR.NEO.git
+git push -u origin main
+error: could not lock config file /home/runner/workspace/.git/config: File exists
+fatal: could not set 'core.repositoryformatversion' to '0'
+[main 1d23fee] first commit
+ 1 file changed, 1 insertion(+)
+error: could not lock config file .git/config
+fatal: branch is renamed, but update of config-file failed
+error: remote origin already exists.
+To https://github.com/amydojo/DR.NEO-LIVE.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/amydojo/DR.NEO-LIVE.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.

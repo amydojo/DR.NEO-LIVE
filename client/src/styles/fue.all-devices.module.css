@@ -1,0 +1,231 @@
+.Section_436_7920 {
+  background: var(--color-white-solid, #fff);
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 64px 0;
+  display: flex;
+}
+.Container_436_7921 {
+  max-width: var(--width-896, 896px);
+  align-items: flex-start;
+  gap: var(--line-height-16, 16px);
+  flex-direction: column;
+  width: 342px;
+  display: flex;
+}
+.Heading_2_436_7922 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.AvailableOnAllYourDevices_436_7923 {
+  color: var(--www-apple-com-black, var(--color-black-solid, #000));
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--font-size-30, 30px);
+  font-style: normal;
+  font-weight: var(--font-weight-600, 700);
+  line-height: var(--line-height-36, 36px);
+  display: inline-block;
+}
+.Container_436_7924 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.AccessYourTreatmentPlanTrackProgressAndConnectWithOurTeamFromAnywhere_436_7925 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-river-bed,
+    var(--color-azure-34, #4b5563)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--font-size-18, 18px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-29_25, 29.25px);
+  display: inline-block;
+}
+.Container_436_7926 {
+  flex-flow: row;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0;
+  width: 100%;
+  height: 288px;
+  padding-bottom: 64px;
+  display: flex;
+  overflow: hidden;
+}
+.Container_436_7927 {
+  align-items: flex-start;
+  gap: var(--font-size-12, 12px);
+  flex-direction: column;
+  display: flex;
+}
+.Component_3_436_7928 {
+  border: var(--stroke-weight-1, 1px) solid #d1d5db;
+  box-sizing: border-box;
+  background: linear-gradient(#f3f4f6 0%, #e5e7eb 100%);
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 160px;
+  padding: 1px;
+  display: flex;
+  box-shadow:
+    0 10px 15px -3px #0000001a,
+    0 4px 6px -4px #0000001a;
+}
+.Container_420_12636 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.Text_420_12637 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-pale-sky,
+    var(--color-grey-46, #6b7280)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  display: inline-block;
+}
+.Container_436_7929 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.IPhone_436_7930 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-pale-sky,
+    var(--color-grey-46, #6b7280)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--font-size-20, 20px);
+  display: inline-block;
+}
+.Margin_436_7931 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 16px;
+  display: flex;
+}
+.Container_436_7932 {
+  align-items: flex-start;
+  gap: var(--font-size-12, 12px);
+  flex-direction: column;
+  display: flex;
+}
+.Component_3_436_7933 {
+  border: var(--stroke-weight-1, 1px) solid #d1d5db;
+  box-sizing: border-box;
+  background: linear-gradient(#f3f4f6 0%, #e5e7eb 100%);
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
+  height: 192px;
+  padding: 1px;
+  display: flex;
+  box-shadow:
+    0 10px 15px -3px #0000001a,
+    0 4px 6px -4px #0000001a;
+}
+.Container_436_7934 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.IPad_436_7935 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-pale-sky,
+    var(--color-grey-46, #6b7280)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--font-size-20, 20px);
+  display: inline-block;
+}
+.Margin_436_7936 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 16px;
+  display: flex;
+}
+.Container_436_7937 {
+  align-items: flex-start;
+  gap: var(--font-size-12, 12px);
+  flex-direction: column;
+  display: flex;
+}
+.Component_3_436_7938 {
+  border: var(--stroke-weight-1, 1px) solid #d1d5db;
+  box-sizing: border-box;
+  background: linear-gradient(#f3f4f6 0%, #e5e7eb 100%);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 128px;
+  padding: 1px;
+  display: flex;
+  box-shadow:
+    0 10px 15px -3px #0000001a,
+    0 4px 6px -4px #0000001a;
+}
+.Container_420_12648 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.Text_420_12649 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-pale-sky,
+    var(--color-grey-46, #6b7280)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--font-size-12, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-16, 16px);
+  display: inline-block;
+}
+.Container_436_7939 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.Mac_436_7940 {
+  color: var(
+    --8-ed-8-a-9-cce-828457-bb-565-a-845-d-4-ef-8145-main-projects-builder-my-pale-sky,
+    var(--color-grey-46, #6b7280)
+  );
+  text-align: center;
+  font-family: var(--font-family-Font-1, "SF Pro Display");
+  font-size: var(--font-size-14, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--font-size-20, 20px);
+  display: inline-block;
+}

@@ -1,0 +1,112 @@
+.Frame_17_192_66 {
+  background: #f5f5f7;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  height: auto;
+  padding: 64px 0 0 0;
+  /* Remove bottom padding to stack treatments */
+  display: flex;
+}
+
+.Frame_16_192_67 {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 367px;
+  display: flex;
+}
+
+.Frame_2609274_257_61 {
+  justify-content: center;
+  align-items: center;
+  width: 359px;
+  height: 53px;
+  display: flex;
+}
+
+.Group_24_192_68 {
+  flex-shrink: 0;
+  width: 359px;
+  height: 53px;
+}
+
+.TheMedicalStandardResultingInHighSurvivabilityHairTransplants_192_70 {
+  color: #EDB930;
+  text-align: center;
+  font-family: Test Söhne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: inline-block;
+}
+
+.FueHairTransplant_192_69 {
+  text-align: center;
+  letter-spacing: -1.6px;
+  background: var(--BEIGE-GRADIENT,
+      linear-gradient(90deg, #EDB930 0%, #c8b68f 100%));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: 359px;
+  font-family: Test Söhne;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+
+.Group_51_192_71 {
+  width: 242.25px;
+  height: 25px;
+}
+
+.Frame_2609275_257_62 {
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 258px;
+  display: flex;
+}
+
+.NeoSiteAssets_2_192_84 {
+  aspect-ratio: 185/129;
+  background: #d3d3d3 url('/assets/HAIR POKE.png') 50% / cover no-repeat;
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 370px;
+  height: 258px;
+}
+
+.LearnMore_192_75 {
+  color: #EDB930;
+  text-align: center;
+  letter-spacing: -0.36px;
+  font-family: Test Söhne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.BookConsult_192_80 {
+  color: #EDB930;
+  text-align: center;
+  letter-spacing: -0.36px;
+  font-family: Test Söhne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: inline-block;
+  cursor: pointer;
+}

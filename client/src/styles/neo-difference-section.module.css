@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Test+Söhne:400,600&display=swap");
+
+.sectionContainer {
+  padding: 80px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.headerContainer {
+  text-align: center;
+  margin-bottom: 52px;
+  max-width: 800px;
+}
+
+.sectionTitle {
+  font-family: 'Test Söhne', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  background: linear-gradient(98.66deg, #625046 8.89%, #c8b68f 55.14%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sectionDescription {
+  font-family: 'Test Söhne', sans-serif;
+  font-size: 18px;
+  color: #625046;
+  line-height: 1.5;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 384px));
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.differenceCard {
+  border-radius: 28px;
+  height: 600px;
+  width: 75%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cardContent {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  z-index: 1;
+}
+
+.cardHeader {
+  margin-bottom: 16px;
+}
+
+.cardLocation {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Test Söhne', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.374px;
+  margin-bottom: 8px;
+}
+
+.cardTitle {
+  color: #fff;
+  font-family: 'Test Söhne', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  margin-bottom: 16px;
+}
+
+.cardDescription {
+  font-family: 'Test Söhne', 'SF Pro Display', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.6px;
+  max-width: 320px;
+}
+
+.buttonContainer {
+  margin-top: 48px;
+}
+
+.consultButton {
+  background: #FAE151;
+  border-radius: 20px;
+  height: 42px;
+  padding: 0 24px;
+  color: #1d1d1f;
+  font-family: 'Test Söhne', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.consultButton:hover {
+  background: #f5d93a;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .differenceCard {
+    height: 500px;
+  }
+
+  .sectionTitle {
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
