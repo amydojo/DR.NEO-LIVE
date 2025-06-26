@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, Search, Phone } from "lucide-react";
+import { Menu, Search, Phone, ChevronRight } from "lucide-react";
 import { cn, NEO_LOGO_WHITE } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { smoothScrollTo } from "@/lib/utils";
@@ -10,7 +10,33 @@ import FueNavBar from "./fue/fue-nav-bar";
 // Navigation links with proper organization for better user flow
 const navLinks = [
   // { name: "Home", href: "/", type: "link" },
-  { name: "Treatments", href: "/fue", type: "dropdown", dropdownItems: [] },
+  {
+    name: "Treatments",
+    href: "/fue",
+    type: "dropdown",
+    dropdownItems: [
+      {
+        name: "FUE Hair Transplant",
+        href: "/fue",
+        type: "link",
+      },
+      {
+        name: "Follicular Hypersomes™",
+        href: "/hypersomes",
+        type: "link",
+      },
+      {
+        name: "Growth Factors",
+        href: "/growth-factors",
+        type: "link",
+      },
+      {
+        name: "Microneedling",
+        href: "/microneedling",
+        type: "link",
+      },
+    ],
+  },
   // { name: "About", href: "/#about", type: "anchor" },
   { name: "Gallery", href: "/#testimonials", type: "anchor" },
   { name: "Pricing", href: "/vip-membership", type: "link" },
@@ -18,6 +44,75 @@ const navLinks = [
 ];
 
 export default function SiteHeader() {
+  const [typeDropdownOpen, setTypeDropdownOpen] = useState<string | null>(null);
+  const generateLinks = (linksArray: any) => {
+    return linksArray.map((link: any) => {
+      let linkType = null;
+      switch (link.type) {
+        case "anchor":
+          linkType = (
+            <a
+              key={link.name}
+              href={link.href}
+              className="text-white hover:text-[#FAE151] font-medium transition-colors py-2 text-sm sm:text-base tracking-wide"
+              style={{ textShadow: "0px 1px 1px rgba(0,0,0,0.2)" }}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick(link.href);
+              }}
+            >
+              {link.name}
+            </a>
+          );
+          break;
+        case "link":
+          linkType = (
+            <Link
+              key={link.name}
+              href={link.href}
+              className="text-white hover:text-[#FAE151] font-medium transition-colors py-2 text-sm sm:text-base tracking-wide"
+              style={{ textShadow: "0px 1px 1px rgba(0,0,0,0.2)" }}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {link.name}
+            </Link>
+          );
+          break;
+        case "dropdown":
+          linkType = (
+            <div>
+              <div
+                className="text-white hover:text-[#FAE151] font-medium transition-colors py-2 text-sm sm:text-base tracking-wide flex flex-row items-center "
+                onClick={() => {
+                  if (typeDropdownOpen === link.name) {
+                    setTypeDropdownOpen(null);
+                  } else setTypeDropdownOpen(link.name);
+                }}
+              >
+                {link.name}{" "}
+                <ChevronRight
+                  className={`
+                              ${typeDropdownOpen === link.name ? "rotate-90" : "rotate-0"}
+                              animate duration-300 h-4 w-4`}
+                />
+              </div>
+              <div
+                className={`${typeDropdownOpen === link.name ? "block" : "hidden"} text-white hover:text-[#FAE151] font-medium transition-colors py-2 text-sm sm:text-base tracking-wide pl-4`}
+              >
+                <div className="flex flex-col gap-2">
+                  {generateLinks(link.dropdownItems)}
+                </div>
+              </div>
+            </div>
+          );
+          break;
+        default:
+          break;
+      }
+
+      return linkType;
+    });
+  };
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [location] = useLocation();
@@ -192,29 +287,7 @@ export default function SiteHeader() {
 
             {/* Main Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              {navLinks.map((link) =>
-                link.type === "anchor" ? (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    className={`text-black ${isScrolled ? "hover:text-white" : "hover:text-[#EDB930]"} font-medium transition-colors text-sm`}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      handleNavClick(link.href);
-                    }}
-                  >
-                    {link.name}
-                  </a>
-                ) : (
-                  <Link
-                    key={link.name}
-                    href={link.href}
-                    className={`text-black ${isScrolled ? "hover:text-white" : "hover:text-[#EDB930]"} font-medium transition-colors text-sm`}
-                  >
-                    {link.name}
-                  </Link>
-                ),
-              )}
+              {generateLinks(navLinks)}
             </nav>
 
             {/* Action buttons */}
